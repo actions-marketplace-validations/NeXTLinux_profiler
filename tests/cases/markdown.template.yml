@@ -1,19 +1,19 @@
 - name: 📒 Markdown template - Example
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     template: markdown
     markdown: >-
-      https://raw.githubusercontent.com/lowlighter/profiler/examples/profiler.markdown.template.md
+      https://raw.githubusercontent.com/nextlinux/profiler/examples/profiler.markdown.template.md
     config_output: markdown
     token: MOCKED_TOKEN
     use_mocked_data: yes
     verify: yes
 - name: 📒 Markdown template - Example with plugins configuration for embed use
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     template: markdown
     markdown: >-
-      https://raw.githubusercontent.com/lowlighter/profiler/master/source/templates/markdown/example.md
+      https://raw.githubusercontent.com/nextlinux/profiler/master/source/templates/markdown/example.md
     config_output: markdown
     plugin_activity: yes
     plugin_activity_limit: 7
@@ -40,11 +40,11 @@
     use_mocked_data: yes
     verify: yes
 - name: 📒 Markdown template - Example (pdf output)
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     template: markdown
     markdown: >-
-      https://raw.githubusercontent.com/lowlighter/profiler/master/source/templates/markdown/example.pdf.md
+      https://raw.githubusercontent.com/nextlinux/profiler/master/source/templates/markdown/example.pdf.md
     config_output: markdown-pdf
     plugin_rss: yes
     plugin_rss_source: https://news.ycombinator.com/rss

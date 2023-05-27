@@ -54,7 +54,7 @@ Please respect the following guidelines:
 To create a new plugin, clone and setup this repository first:
 
 ```shell
-git clone https://github.com/lowlighter/profiler.git
+git clone https://github.com/nextlinux/profiler.git
 cd profiler/
 npm install
 ```
@@ -331,7 +331,7 @@ It uses the same syntax as GitHub action and looks like below:
 
 ```yml
 - name: Test name
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.{name}.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -408,7 +408,7 @@ You're almost done, review the following checklist before submitting a pull requ
 - [x] I am ready!
   - [x] Checkout any generated files (in fact, don't run `npm run build`)
   - [x] Commit and push your changes (commits are squashed, no need to rebase)
-  - [x] Open a new [pull request](https://github.com/lowlighter/profiler/pulls)
+  - [x] Open a new [pull request](https://github.com/nextlinux/profiler/pulls)
   - [x] Post a screenshot or a render in the pull request so it can be previewed
 
 > 💡 A pull request **will need** to have passing builds and an example screenshot if you want to get it merged.

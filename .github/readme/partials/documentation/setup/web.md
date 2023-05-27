@@ -22,7 +22,7 @@ No additional scopes are required.
 Fetch a copy of [`settings.example.json`](/settings.example.json) and rename it `settings.json`
 
 ```shell
-wget https://raw.githubusercontent.com/lowlighter/profiler/master/settings.example.json
+wget https://raw.githubusercontent.com/nextlinux/profiler/master/settings.example.json
 mv settings.example.json settings.json
 ```
 
@@ -129,7 +129,7 @@ If a plugin is used without sufficient permissions, it will result in an error.
 
 ## 3️ Start docker container
 
-Docker images are published on [GitHub Container Registry](https://github.com/lowlighter/profiler/pkgs/container/profiler).
+Docker images are published on [GitHub Container Registry](https://github.com/nextlinux/profiler/pkgs/container/profiler).
 
 Configure the following variables (or hardcode them in the command in the next block):
 
@@ -147,7 +147,7 @@ PUBLISHED_PORT=80
 And start the container using the following command:
 
 ```shell
-docker run --rm --entrypoint="" -p=127.0.0.1:$PUBLISHED_PORT:$SERVICE_PORT --volume=$SETTINGS:/profiler/settings.json ghcr.io/lowlighter/profiler:$VERSION npm start
+docker run --rm --entrypoint="" -p=127.0.0.1:$PUBLISHED_PORT:$SERVICE_PORT --volume=$SETTINGS:/profiler/settings.json ghcr.io/nextlinux/profiler:$VERSION npm start
 ```
 
 ## 4️ Add images to your profile `README.md`

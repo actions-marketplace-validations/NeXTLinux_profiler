@@ -3,7 +3,7 @@ category: github
 description: |
   This plugin displays progress of profile and repository projects.
 examples:
-  default: https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.projects.svg
+  default: https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.projects.svg
 index: 25
 supports:
   - user

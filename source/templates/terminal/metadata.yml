@@ -2,7 +2,7 @@ name: 📙 Terminal template
 description: |
   A template mimicking a SSH session.
 examples:
-  default: https://github.com/lowlighter/profiler/blob/examples/profiler.terminal.svg
+  default: https://github.com/nextlinux/profiler/blob/examples/profiler.terminal.svg
 index: 2
 supports:
   - user

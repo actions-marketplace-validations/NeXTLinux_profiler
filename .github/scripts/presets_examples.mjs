@@ -16,14 +16,14 @@ const __profiler = paths.join(paths.dirname(url.fileURLToPath(import.meta.url)),
 const __presets = paths.join(__profiler, ".presets")
 
 if ((!await fs.access(__presets).then(_ => true).catch(_ => false)) || (!(await fs.lstat(__presets)).isDirectory()))
-  await sgit().clone(`https://github-actions[bot]:${process.env.GITHUB_TOKEN}@github.com/lowlighter/profiler`, __presets, {"--branch": "presets", "--single-branch": true})
+  await sgit().clone(`https://github-actions[bot]:${process.env.GITHUB_TOKEN}@github.com/nextlinux/profiler`, __presets, {"--branch": "presets", "--single-branch": true})
 const git = sgit(__presets)
 await git.pull()
 const staged = new Set()
 
 //Web instance
 const web = {}
-web.run = async vars => await fetch(`http://localhost:3000/lowlighter?${new url.URLSearchParams(Object.fromEntries(Object.entries(vars).map(([key, value]) => [key.replace(/^plugin_/, "").replace(/_/g, "."), value])))}`).then(response => response.text())
+web.run = async vars => await fetch(`http://localhost:3000/nextlinux?${new url.URLSearchParams(Object.fromEntries(Object.entries(vars).map(([key, value]) => [key.replace(/^plugin_/, "").replace(/_/g, "."), value])))}`).then(response => response.text())
 web.start = async () =>
   new Promise(solve => {
     let stdout = ""

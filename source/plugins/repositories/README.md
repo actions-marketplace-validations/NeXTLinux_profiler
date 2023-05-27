@@ -24,8 +24,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Featured</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.repositories.svg" alt=""></img></details>
-      <details><summary>Pinned</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.repositories.pinned.svg" alt=""></img></details>
+      <details open><summary>Featured</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.repositories.svg" alt=""></img></details>
+      <details><summary>Pinned</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.repositories.pinned.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -149,18 +149,18 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: Featured repositories
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.repositories.svg
   token: ${{ secrets.profiler_TOKEN }}
   base: ""
   plugin_repositories: yes
-  plugin_repositories_featured: lowlighter/profiler
+  plugin_repositories_featured: nextlinux/profiler
 ```
 
 ```yaml
 name: Pinned repositories
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.repositories.pinned.svg
   token: ${{ secrets.profiler_TOKEN }}

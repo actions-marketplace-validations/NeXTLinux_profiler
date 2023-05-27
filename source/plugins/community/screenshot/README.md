@@ -5,7 +5,7 @@
   <tr><td colspan="2" align="center"><p>This plugin displays a screenshot from any website.</p>
 <p>It can either show the full page or a portion restricted by a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">CSS selector</a>.</p>
 </td></tr>
-<tr><th>Authors</th><td><a href="https://github.com/lowlighter">@lowlighter</a></td></tr>
+<tr><th>Authors</th><td><a href="https://github.com/nextlinux">@nextlinux</a></td></tr>
   <tr>
     <th rowspan="3">Supported features<br><sub><a href="metadata.yml">→ Full specification</a></sub></th>
     <td><a href="/source/templates/classic/README.md"><code>📗 Classic template</code></a> <a href="/source/templates/repository/README.md"><code>📘 Repository template</code></a> <a href="/source/templates/terminal/README.md"><code>📙 Terminal template</code></a></td>
@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.screenshot.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.screenshot.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -138,7 +138,7 @@
 
 ```yaml
 name: XKCD of the day
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.screenshot.svg
   token: NOT_NEEDED

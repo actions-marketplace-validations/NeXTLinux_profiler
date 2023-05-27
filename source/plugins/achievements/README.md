@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Compact display</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.achievements.compact.svg" alt=""></img></details>
-      <details><summary>Detailed display</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.achievements.svg" alt=""></img></details>
+      <details open><summary>Compact display</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.achievements.compact.svg" alt=""></img></details>
+      <details><summary>Detailed display</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.achievements.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -130,7 +130,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: Detailed display
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.achievements.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -141,7 +141,7 @@ with:
 
 ```yaml
 name: Compact display
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.achievements.compact.svg
   token: ${{ secrets.profiler_TOKEN }}

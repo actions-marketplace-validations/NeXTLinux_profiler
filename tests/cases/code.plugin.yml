@@ -1,5 +1,5 @@
 - name: ♐ Random code snippet - JavaScript or TypeScript snippet of the day
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     plugin_code: 'yes'

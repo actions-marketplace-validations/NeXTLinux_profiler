@@ -1,5 +1,5 @@
 - name: 🧮 Repositories traffic - Repositories traffic
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     base: repositories

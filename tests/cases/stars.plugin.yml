@@ -1,5 +1,5 @@
 - name: 🌟 Recently starred repositories - Recently starred
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     plugin_stars: 'yes'

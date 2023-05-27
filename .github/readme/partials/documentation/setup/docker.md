@@ -9,7 +9,7 @@ A machine with a recent version of [docker](https://www.docker.com/) is required
 The command to use is similar to the following:
 
 ```shell
-docker run --rm --env INPUT_TOKEN=**** --env INPUT_USER=user --volume=/tmp:/renders ghcr.io/lowlighter/profiler:latest
+docker run --rm --env INPUT_TOKEN=**** --env INPUT_USER=user --volume=/tmp:/renders ghcr.io/nextlinux/profiler:latest
 ```
 
 To pass parameters, pass environment variable with the same name as the corresponding action option but in uppercase and prefixed with `INPUT_`.

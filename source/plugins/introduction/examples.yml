@@ -1,5 +1,5 @@
 - name: Organization introduction
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.introduction.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -11,7 +11,7 @@
       token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}
 
 - name: Repository introduction
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.introduction.repository.svg
     token: ${{ secrets.profiler_TOKEN }}

@@ -17,7 +17,7 @@ This is also the default template.</p>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.classic.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.classic.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -29,7 +29,7 @@ This is also the default template.</p>
 <!--examples-->
 ```yaml
 name: Example
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.classic.svg
   token: ${{ secrets.profiler_TOKEN }}

@@ -1,5 +1,5 @@
 - name: Compact display in base plugin
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.lines.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -7,7 +7,7 @@
     plugin_lines: yes
 
 - name: Repositories and diff history
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.lines.history.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -19,4 +19,4 @@
     repositories_skipped: |
       @use.patterns
       */*
-      +lowlighter/profiler
+      +nextlinux/profiler

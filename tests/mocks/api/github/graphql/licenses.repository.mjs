@@ -5,7 +5,7 @@ export default function({faker, query, login = faker.internet.userName()}) {
     user: {
       repository: {
         licenseInfo: {spdxId: "MIT", name: "MIT License", nickname: null, key: "mit"},
-        url: "https://github.com/lowlighter/profiler",
+        url: "https://github.com/nextlinux/profiler",
         databaseId: 293860197,
       },
     },

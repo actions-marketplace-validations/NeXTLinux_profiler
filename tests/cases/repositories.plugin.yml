@@ -1,13 +1,13 @@
 - name: 📓 Featured repositories - Featured repositories
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     plugin_repositories: 'yes'
-    plugin_repositories_featured: lowlighter/profiler
+    plugin_repositories_featured: nextlinux/profiler
     use_mocked_data: 'yes'
     verify: 'yes'
 - name: 📓 Featured repositories - Pinned repositories
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     plugin_repositories: 'yes'

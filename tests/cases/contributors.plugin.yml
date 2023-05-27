@@ -1,5 +1,5 @@
 - name: 🏅 Repository contributors - Contributors with contributions count
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     template: repository
@@ -9,7 +9,7 @@
     use_mocked_data: 'yes'
     verify: 'yes'
 - name: 🏅 Repository contributors - Contributors by categories
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     template: repository

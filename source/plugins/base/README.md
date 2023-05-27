@@ -16,10 +16,10 @@
   <tr>
 <td colspan="2"><table><tr>
 <td align="center">
-<img src="https://github.com/lowlighter/profiler/blob/examples/profiler.classic.svg" alt=""></img>
+<img src="https://github.com/nextlinux/profiler/blob/examples/profiler.classic.svg" alt=""></img>
 </td>
 <td align="center">
-<img src="https://github.com/lowlighter/profiler/blob/examples/profiler.organization.svg" alt=""></img>
+<img src="https://github.com/nextlinux/profiler/blob/examples/profiler.organization.svg" alt=""></img>
 </td>
 </tr></table></td>
   </tr>
@@ -206,7 +206,7 @@ Broad affiliations will result in less representative profiler.</p>
 
 ```yaml
 name: Default profiler
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.base.svg
   token: ${{ secrets.profiler_TOKEN }}

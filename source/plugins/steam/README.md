@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Recently played games</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.steam.svg" alt=""></img></details>
-      <details><summary>Profile and detailed game history</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.steam.full.svg" alt=""></img></details>
+      <details open><summary>Recently played games</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.steam.svg" alt=""></img></details>
+      <details><summary>Profile and detailed game history</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.steam.full.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -165,7 +165,7 @@ To retrieve your Steam ID, access your user account on [store.steampowered.com/a
 
 ```yaml
 name: Recently played games
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.steam.svg
   token: NOT_NEEDED
@@ -179,7 +179,7 @@ with:
 
 ```yaml
 name: Profile and detailed game history
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.steam.full.svg
   token: NOT_NEEDED

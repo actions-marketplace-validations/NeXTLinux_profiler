@@ -3,8 +3,8 @@ category: social
 description: |
   This plugin displays recent articles from a specified and supported external source.
 examples:
-  +latest posts width description and cover image: https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.posts.full.svg
-  latest posts: https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.posts.svg
+  +latest posts width description and cover image: https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.posts.full.svg
+  latest posts: https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.posts.svg
 index: 6
 supports:
   - user

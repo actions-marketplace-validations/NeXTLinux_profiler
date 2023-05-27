@@ -1,5 +1,5 @@
 - name: Half-year calendar
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.isocalendar.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -7,7 +7,7 @@
     plugin_isocalendar: yes
 
 - name: Full-year calendar
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.isocalendar.fullyear.svg
     token: ${{ secrets.profiler_TOKEN }}

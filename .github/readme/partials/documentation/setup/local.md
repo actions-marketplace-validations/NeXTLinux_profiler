@@ -9,7 +9,7 @@ A machine with a recent version of [NodeJS](https://nodejs.org) is required (see
 Run the following command to clone this repository and install dependencies.
 
 ```shell
-git clone https://github.com/lowlighter/profiler.git
+git clone https://github.com/nextlinux/profiler.git
 cd profiler/
 npm install
 cp settings.example.json settings.json

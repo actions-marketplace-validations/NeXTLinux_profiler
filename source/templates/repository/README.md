@@ -16,7 +16,7 @@
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.repository.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.repository.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -29,12 +29,12 @@ To use a repository template, a `repo` handle must be provided.
 
 If the token owner is not the repository owner, then the `user` option must be set to the repository owner (whether it is an user or organization account).
 
-*Example: render `lowlighter/profiler` repository*
+*Example: render `nextlinux/profiler` repository*
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     template: repository
-    user: lowlighter
+    user: nextlinux
     repo: profiler
 ```
 
@@ -43,17 +43,17 @@ If the token owner is not the repository owner, then the `user` option must be s
 <!--examples-->
 ```yaml
 name: Example
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   template: repository
   filename: profiler.repository.svg
   token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}
-  user: lowlighter
+  user: nextlinux
   repo: profiler
   plugin_lines: yes
   plugin_followup: yes
   plugin_projects: yes
-  plugin_projects_repositories: lowlighter/profiler/projects/1
+  plugin_projects_repositories: nextlinux/profiler/projects/1
 
 ```
 <!--/examples-->

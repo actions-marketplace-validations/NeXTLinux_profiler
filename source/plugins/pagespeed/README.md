@@ -20,9 +20,9 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>PageSpeed scores</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.pagespeed.svg" alt=""></img></details>
-      <details><summary>PageSpeed scores with detailed report</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.pagespeed.detailed.svg" alt=""></img></details>
-      <details><summary>PageSpeed scores with a website screenshot</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.pagespeed.screenshot.svg" alt=""></img></details>
+      <details open><summary>PageSpeed scores</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.pagespeed.svg" alt=""></img></details>
+      <details><summary>PageSpeed scores with detailed report</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.pagespeed.detailed.svg" alt=""></img></details>
+      <details><summary>PageSpeed scores with a website screenshot</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.pagespeed.screenshot.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -123,7 +123,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: Succinct report
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.pagespeed.svg
   token: NOT_NEEDED
@@ -135,7 +135,7 @@ with:
 
 ```yaml
 name: Detailed report
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.pagespeed.detailed.svg
   token: NOT_NEEDED
@@ -148,7 +148,7 @@ with:
 
 ```yaml
 name: Screenshot
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.pagespeed.screenshot.svg
   token: NOT_NEEDED
@@ -161,7 +161,7 @@ with:
 
 ```yaml
 name: Succinct report with PWA
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.pagespeed.svg
   token: NOT_NEEDED

@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Repositories and diff history</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.lines.history.svg" alt=""></img></details>
-      <details><summary>Compact display in base plugin</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.lines.svg" alt=""></img></details>
+      <details open><summary>Repositories and diff history</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.lines.history.svg" alt=""></img></details>
+      <details><summary>Compact display in base plugin</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.lines.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -108,7 +108,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: Compact display in base plugin
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.lines.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -118,7 +118,7 @@ with:
 
 ```yaml
 name: Repositories and diff history
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.lines.history.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -130,7 +130,7 @@ with:
   repositories_skipped: |
     @use.patterns
     */*
-    +lowlighter/profiler
+    +nextlinux/profiler
 ```
 
 <!--/examples-->

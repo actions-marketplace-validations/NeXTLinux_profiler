@@ -19,7 +19,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.leetcode.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.leetcode.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -116,7 +116,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: LeetCode
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.leetcode.svg
   token: NOT_NEEDED

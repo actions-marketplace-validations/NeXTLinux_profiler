@@ -1,5 +1,5 @@
 - name: Recent posts
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.posts.svg
     token: NOT_NEEDED
@@ -8,7 +8,7 @@
     plugin_posts_source: dev.to
 
 - name: Recent posts with descriptions and cover images
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.posts.full.svg
     token: NOT_NEEDED

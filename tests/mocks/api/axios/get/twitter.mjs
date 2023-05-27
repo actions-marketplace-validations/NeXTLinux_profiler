@@ -31,10 +31,10 @@ export default function({faker, url, options, login = faker.internet.userName()}
               created_at: `${faker.date.recent()}`,
               entities: {
                 mentions: [
-                  {start: 22, end: 33, username: "lowlighter"},
+                  {start: 22, end: 33, username: "nextlinux"},
                 ],
               },
-              text: "Checkout profiler from @lowlighter ! #GitHub",
+              text: "Checkout profiler from @nextlinux ! #GitHub",
             },
             {
               id: faker.datatype.number(100000000000000).toString(),
@@ -46,8 +46,8 @@ export default function({faker, url, options, login = faker.internet.userName()}
             users: [
               {
                 id: faker.datatype.number(100000000000000).toString(),
-                name: "lowlighter",
-                username: "lowlighter",
+                name: "nextlinux",
+                username: "nextlinux",
               },
             ],
           },

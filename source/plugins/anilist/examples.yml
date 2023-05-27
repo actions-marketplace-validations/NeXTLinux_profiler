@@ -1,5 +1,5 @@
 - name: Favorites anime and currently watching
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.anilist.svg
     token: NOT_NEEDED
@@ -10,7 +10,7 @@
     plugin_anilist_limit: 1
 
 - name: Favorites manga and currently reading
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.anilist.manga.svg
     token: NOT_NEEDED
@@ -21,7 +21,7 @@
     plugin_anilist_limit: 1
 
 - name: Favorites characters
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.anilist.characters.svg
     token: NOT_NEEDED

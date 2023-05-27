@@ -16,7 +16,7 @@
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.terminal.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.terminal.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -28,7 +28,7 @@
 <!--examples-->
 ```yaml
 name: Example
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   template: terminal
   filename: profiler.terminal.svg

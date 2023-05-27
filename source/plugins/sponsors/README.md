@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>GitHub sponsors card</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.sponsors.svg" alt=""></img></details>
-      <details><summary>GitHub sponsors full introduction</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.sponsors.full.svg" alt=""></img></details>
+      <details open><summary>GitHub sponsors card</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.sponsors.svg" alt=""></img></details>
+      <details><summary>GitHub sponsors full introduction</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.sponsors.full.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -107,7 +107,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: Sponsors goal
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.sponsors.svg
   token: ${{ secrets.profiler_TOKEN_PERSONAL }}
@@ -119,7 +119,7 @@ with:
 
 ```yaml
 name: Sponsors introduction
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.sponsors.full.svg
   token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}

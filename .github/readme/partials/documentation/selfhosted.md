@@ -32,9 +32,9 @@ _Example: render profiler for `github` organization_
 ```yaml
 runs-on: self-hosted
 steps:
-  - uses: lowlighter/profiler@latest
+  - uses: nextlinux/profiler@latest
     with:
       token: ${{ secrets.profiler_TOKEN }}
 ```
 
-> 💡 To easily debug workflow errors, use [`debug: yes`](https://github.com/lowlighter/profiler/tree/master/source/plugins/core#debug) option
+> 💡 To easily debug workflow errors, use [`debug: yes`](https://github.com/nextlinux/profiler/tree/master/source/plugins/core#debug) option

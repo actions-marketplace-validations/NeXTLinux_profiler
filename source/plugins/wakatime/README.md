@@ -20,7 +20,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.wakatime.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.wakatime.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -171,7 +171,7 @@ Then setup [WakaTime plugins](https://wakatime.com/plugins) to be ready to go!
 
 ```yaml
 name: WakaTime
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.wakatime.svg
   token: NOT_NEEDED

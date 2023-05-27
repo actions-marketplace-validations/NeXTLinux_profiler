@@ -25,7 +25,7 @@ Use at your own risk, <em>profiler</em> and its authors cannot be held responsib
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.code.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.code.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -131,7 +131,7 @@ Use at your own risk, <em>profiler</em> and its authors cannot be held responsib
 
 ```yaml
 name: JavaScript or TypeScript snippet of the day
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.code.svg
   token: ${{ secrets.profiler_TOKEN }}

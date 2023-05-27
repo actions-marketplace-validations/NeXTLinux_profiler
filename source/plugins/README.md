@@ -51,11 +51,11 @@ Plugins provide additional content and lets you customize rendered profiler.
 **🎲 Maintained by community**
 
 - **[Community plugins](/source/plugins/community/README.md)**
-  - [🧠 16personalities <sub>`16personalities`</sub>](/source/plugins/community/16personalities/README.md) by [@lowlighter](https://github.com/lowlighter)
-  - [♟️ Chess <sub>`chess`</sub>](/source/plugins/community/chess/README.md) by [@lowlighter](https://github.com/lowlighter)
-  - [🥠 Fortune <sub>`fortune`</sub>](/source/plugins/community/fortune/README.md) by [@lowlighter](https://github.com/lowlighter)
+  - [🧠 16personalities <sub>`16personalities`</sub>](/source/plugins/community/16personalities/README.md) by [@nextlinux](https://github.com/nextlinux)
+  - [♟️ Chess <sub>`chess`</sub>](/source/plugins/community/chess/README.md) by [@nextlinux](https://github.com/nextlinux)
+  - [🥠 Fortune <sub>`fortune`</sub>](/source/plugins/community/fortune/README.md) by [@nextlinux](https://github.com/nextlinux)
   - [💉 Nightscout <sub>`nightscout`</sub>](/source/plugins/community/nightscout/README.md) by [@legoandmars](https://github.com/legoandmars)
   - [💩 PoopMap plugin <sub>`poopmap`</sub>](/source/plugins/community/poopmap/README.md) by [@matievisthekat](https://github.com/matievisthekat)
-  - [📸 Website screenshot <sub>`screenshot`</sub>](/source/plugins/community/screenshot/README.md) by [@lowlighter](https://github.com/lowlighter)
-  - [🦑 Splatoon <sub>`splatoon`</sub>](/source/plugins/community/splatoon/README.md) by [@lowlighter](https://github.com/lowlighter)
-  - [💹 Stock prices <sub>`stock`</sub>](/source/plugins/community/stock/README.md) by [@lowlighter](https://github.com/lowlighter)
+  - [📸 Website screenshot <sub>`screenshot`</sub>](/source/plugins/community/screenshot/README.md) by [@nextlinux](https://github.com/nextlinux)
+  - [🦑 Splatoon <sub>`splatoon`</sub>](/source/plugins/community/splatoon/README.md) by [@nextlinux](https://github.com/nextlinux)
+  - [💹 Stock prices <sub>`stock`</sub>](/source/plugins/community/stock/README.md) by [@nextlinux](https://github.com/nextlinux)

@@ -2,7 +2,7 @@
 
 While _profiler_ targets mainly user accounts, it's possible to render profiler for organization accounts.
 
-![profiler (organization account)](https://github.com/lowlighter/profiler/blob/examples/profiler.organization.svg)
+![profiler (organization account)](https://github.com/nextlinux/profiler/blob/examples/profiler.organization.svg)
 
 ## *️⃣ Using *profiler\* on organization
 
@@ -16,7 +16,7 @@ Setup is mostly the same as for user accounts. A personal access token from an u
 _Example: render profiler for `github` organization_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     token: ${{ secrets.profiler_TOKEN }}
     user: github

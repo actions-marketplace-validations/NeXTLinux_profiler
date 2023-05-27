@@ -128,7 +128,7 @@ Check out the instructions there.
 <!--examples-->
 
 ```yaml
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   token: NOT_NEEDED
   plugin_nightscout: yes

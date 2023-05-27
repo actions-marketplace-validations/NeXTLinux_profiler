@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Recent activity charts</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.habits.charts.svg" alt=""></img></details>
-      <details open><summary>Mildly interesting facts</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.habits.facts.svg" alt=""></img></details>
+      <details open><summary>Recent activity charts</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.habits.charts.svg" alt=""></img></details>
+      <details open><summary>Mildly interesting facts</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.habits.facts.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -179,7 +179,7 @@ Configure `config_timezone` (see [supported timezone](https://en.wikipedia.org/w
 _Example: configuring timezone_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_timezone: Europe/Paris
 ```
@@ -190,7 +190,7 @@ _Example: configuring timezone_
 
 ```yaml
 name: Mildly interesting facts
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.habits.facts.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -203,7 +203,7 @@ with:
 
 ```yaml
 name: Recent activity charts
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.habits.charts.svg
   token: ${{ secrets.profiler_TOKEN }}

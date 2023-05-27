@@ -7,7 +7,7 @@
   <tr><th>⚠️ Disclaimer</th><td><p>This plugin is not affiliated, associated, authorized, endorsed by, or in any way officially connected with <a href="https://www.16personalities.com">16personalities</a>.
 All product and company names are trademarks™ or registered® trademarks of their respective holders.</p>
 </td></tr>
-<tr><th>Authors</th><td><a href="https://github.com/lowlighter">@lowlighter</a></td></tr>
+<tr><th>Authors</th><td><a href="https://github.com/nextlinux">@nextlinux</a></td></tr>
   <tr>
     <th rowspan="3">Supported features<br><sub><a href="metadata.yml">→ Full specification</a></sub></th>
     <td><a href="/source/templates/classic/README.md"><code>📗 Classic template</code></a></td>
@@ -20,7 +20,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.16personalities.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.16personalities.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -96,7 +96,7 @@ Login with the generated password received in your mailbox and copy the link tha
 
 ```yaml
 name: MBTI Personality profile
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.16personalities.svg
   token: ${{ secrets.profiler_TOKEN }}

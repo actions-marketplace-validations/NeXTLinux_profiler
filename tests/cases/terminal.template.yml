@@ -1,5 +1,5 @@
 - name: 📙 Terminal template - Example
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     template: terminal
     token: MOCKED_TOKEN

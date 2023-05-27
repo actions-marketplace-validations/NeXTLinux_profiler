@@ -1,12 +1,12 @@
 - name: Example
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     template: repository
     filename: profiler.repository.svg
     token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}
-    user: lowlighter
+    user: nextlinux
     repo: profiler
     plugin_lines: yes
     plugin_followup: yes
     plugin_projects: yes
-    plugin_projects_repositories: lowlighter/profiler/projects/1
+    plugin_projects_repositories: nextlinux/profiler/projects/1

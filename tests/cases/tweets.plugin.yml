@@ -1,5 +1,5 @@
 - name: 🐤 Latest tweets - Latest tweets
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: NOT_NEEDED
     plugin_tweets: 'yes'
@@ -8,7 +8,7 @@
     use_mocked_data: 'yes'
     verify: 'yes'
 - name: 🐤 Latest tweets - Latest tweets including attachments
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: NOT_NEEDED
     plugin_tweets: 'yes'

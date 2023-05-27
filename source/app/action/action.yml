@@ -12,7 +12,7 @@ inputs:
 # ====================================================================================
 # Action metadata
 name: profiler embed
-author: lowlighter
+author: nextlinux
 description: An infographics generator with 40+ plugins and 300+ options to display stats about your GitHub account!
 branding:
   icon: user-check

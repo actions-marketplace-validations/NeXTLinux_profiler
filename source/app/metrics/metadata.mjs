@@ -30,7 +30,7 @@ export default async function metadata({log = true, diff = false} = {}) {
   //Diff with latest version
   if (diff) {
     try {
-      previous = yaml.load(await fetch("https://raw.githubusercontent.com/lowlighter/profiler/latest/action.yml").then(response => response.text()))
+      previous = yaml.load(await fetch("https://raw.githubusercontent.com/nextlinux/profiler/latest/action.yml").then(response => response.text()))
     }
     catch (error) {
       logger(error)

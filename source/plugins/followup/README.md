@@ -19,9 +19,9 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Indepth analysis</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.followup.indepth.svg" alt=""></img></details>
-      <details><summary>Created on a user's repositories</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.followup.svg" alt=""></img></details>
-      <details><summary>Created by a user</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.followup.user.svg" alt=""></img></details>
+      <details open><summary>Indepth analysis</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.followup.indepth.svg" alt=""></img></details>
+      <details><summary>Created on a user's repositories</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.followup.svg" alt=""></img></details>
+      <details><summary>Created by a user</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.followup.user.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -102,7 +102,7 @@ It helps knowing whether repositories are also maintained by other users and giv
 
 ```yaml
 name: Opened on user's repositories
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.followup.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -112,7 +112,7 @@ with:
 
 ```yaml
 name: Opened by user
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.followup.user.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -123,7 +123,7 @@ with:
 
 ```yaml
 name: Indepth analysis
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.followup.indepth.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -134,7 +134,7 @@ with:
 
 ```yaml
 name: Exclude Archived
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.followup.archived.svg
   token: ${{ secrets.profiler_TOKEN }}

@@ -35,7 +35,7 @@
 
       <% if (base.metadata) { %>
         <footer>
-          <span>Last updated <%= meta.generated %> with lowlighter/profiler@<%= meta.version %></span>
+          <span>Last updated <%= meta.generated %> with nextlinux/profiler@<%= meta.version %></span>
         </footer>
       <% } %>
 
