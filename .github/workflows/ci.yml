@@ -10,7 +10,7 @@ jobs:
   build-test-analyze:
     name: Build, test and analyze
     if: "!contains(github.event.head_commit.message, '[skip test]')"
-    uses: lowlighter/profiler/.github/workflows/test.yml@master
+    uses: nextlinux/profiler/.github/workflows/test.yml@master
 
   # Format code
   format:
@@ -97,9 +97,9 @@ jobs:
       - name: Login to GitHub registry
         run: echo ${{ github.token }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
       - name: Build docker image
-        run: docker build -t ghcr.io/lowlighter/profiler:master .
+        run: docker build -t ghcr.io/nextlinux/profiler:master .
       - name: Publish to GitHub registry
-        run: docker push ghcr.io/lowlighter/profiler:master
+        run: docker push ghcr.io/nextlinux/profiler:master
       - name: Tag docker image (beta) and publish to GitHub registry
         run: |
           set +e
@@ -108,35 +108,35 @@ jobs:
           set -e
           if [[ ! -z "$profiler_VERSION" ]]; then
             echo "Beta version: v$profiler_VERSION_BETA"
-            docker tag ghcr.io/lowlighter/profiler:master ghcr.io/lowlighter/profiler:$(echo "v$profiler_VERSION_BETA")
-            docker push ghcr.io/lowlighter/profiler:$(echo "v$profiler_VERSION_BETA")
+            docker tag ghcr.io/nextlinux/profiler:master ghcr.io/nextlinux/profiler:$(echo "v$profiler_VERSION_BETA")
+            docker push ghcr.io/nextlinux/profiler:$(echo "v$profiler_VERSION_BETA")
           fi
       - name: Tag docker image (main) and publish to GitHub registry
         run: |
-          docker tag ghcr.io/lowlighter/profiler:master ghcr.io/lowlighter/profiler:main
-          docker push ghcr.io/lowlighter/profiler:main
+          docker tag ghcr.io/nextlinux/profiler:master ghcr.io/nextlinux/profiler:main
+          docker push ghcr.io/nextlinux/profiler:main
 
-  # Deploy to beta-profiler.lecoq.io
+  # Deploy to beta-profiler.next-linux.systems
   deploy-master:
-    name: Deploy lowlighter/profiler@master
+    name: Deploy nextlinux/profiler@master
     runs-on: ubuntu-latest
     needs: [ docker-master ]
     steps:
       - name: Deploy web instance
-        run: "curl -X POST -H 'Authorization: ${{ secrets.WEB_DEPLOY_BETA_TOKEN }}' https://beta-profiler.lecoq.io/.control/stop"
+        run: "curl -X POST -H 'Authorization: ${{ secrets.WEB_DEPLOY_BETA_TOKEN }}' https://beta-profiler.next-linux.systems/.control/stop"
       - name: Wait for redeploy
         run: sleep 120
       - name: Check deployment status
-        run: "curl --retry 15 --retry-delay 60 https://beta-profiler.lecoq.io/.version"
+        run: "curl --retry 15 --retry-delay 60 https://beta-profiler.next-linux.systems/.version"
 
-  # Test lowlighter/profiler@master
+  # Test nextlinux/profiler@master
   action-master-test:
-    name: Test lowlighter/profiler@master
+    name: Test nextlinux/profiler@master
     runs-on: ubuntu-latest
     needs: [ docker-master ]
     steps:
       - name: Run tests
-        uses: lowlighter/profiler@master
+        uses: nextlinux/profiler@master
         with:
           token: MOCKED_TOKEN
           plugins_errors_fatal: yes
@@ -148,7 +148,7 @@ jobs:
   publish-examples:
     name: Publish examples
     needs: [ action-master-test ]
-    uses: lowlighter/profiler/.github/workflows/examples.yml@master
+    uses: nextlinux/profiler/.github/workflows/examples.yml@master
     secrets:
       profiler_TOKEN: ${{ secrets.profiler_TOKEN }}
       profiler_TOKEN_WITH_SCOPES: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}
@@ -168,7 +168,7 @@ jobs:
   publish-examples-presets:
     name: Publish examples (presets)
     needs: [ action-master-test ]
-    uses: lowlighter/profiler/.github/workflows/examples.presets.yml@master
+    uses: nextlinux/profiler/.github/workflows/examples.presets.yml@master
 
   # Build docker image from master and publish it to GitHub registry with release tag
   docker-release:
@@ -182,15 +182,15 @@ jobs:
       - name: Login to GitHub registry
         run: echo ${{ github.token }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
       - name: Pull docker image (master)
-        run: docker pull ghcr.io/lowlighter/profiler:master
+        run: docker pull ghcr.io/nextlinux/profiler:master
       - name: Tag docker image (release)
-        run: docker tag ghcr.io/lowlighter/profiler:master ghcr.io/lowlighter/profiler:$(echo '${{ github.event.head_commit.message }}' | grep -Po 'v\d+[.]\d+')
+        run: docker tag ghcr.io/nextlinux/profiler:master ghcr.io/nextlinux/profiler:$(echo '${{ github.event.head_commit.message }}' | grep -Po 'v\d+[.]\d+')
       - name: Publish release to GitHub registry
-        run: docker push ghcr.io/lowlighter/profiler:$(echo '${{ github.event.head_commit.message }}' | grep -Po 'v\d+[.]\d+')
+        run: docker push ghcr.io/nextlinux/profiler:$(echo '${{ github.event.head_commit.message }}' | grep -Po 'v\d+[.]\d+')
       - name: Tag docker image (latest)
-        run: docker tag ghcr.io/lowlighter/profiler:master ghcr.io/lowlighter/profiler:latest
+        run: docker tag ghcr.io/nextlinux/profiler:master ghcr.io/nextlinux/profiler:latest
       - name: Publish latest to GitHub registry
-        run: docker push ghcr.io/lowlighter/profiler:latest
+        run: docker push ghcr.io/nextlinux/profiler:latest
 
   # Rebase latest branch on master
   update-latest:
@@ -217,14 +217,14 @@ jobs:
       - name: Push latest
         run: git push origin latest
 
-  # Test lowlighter/profiler@latest
+  # Test nextlinux/profiler@latest
   action-latest-test:
-    name: Test lowlighter/profiler@latest
+    name: Test nextlinux/profiler@latest
     runs-on: ubuntu-latest
     needs: [ update-latest ]
     steps:
       - name: Run tests
-        uses: lowlighter/profiler@latest
+        uses: nextlinux/profiler@latest
         with:
           token: MOCKED_TOKEN
           plugins_errors_fatal: yes
@@ -232,18 +232,18 @@ jobs:
           use_mocked_data: yes
           verify: yes
 
-  # Deploy to profiler.lecoq.io
+  # Deploy to profiler.next-linux.systems
   deploy-latest:
-    name: Deploy lowlighter/profiler@latest
+    name: Deploy nextlinux/profiler@latest
     runs-on: ubuntu-latest
     needs: [ docker-release, deploy-master ]
     steps:
       - name: Deploy web instance
-        run: "curl -X POST -H 'Authorization: ${{ secrets.WEB_DEPLOY_TOKEN }}' https://profiler.lecoq.io/.control/stop"
+        run: "curl -X POST -H 'Authorization: ${{ secrets.WEB_DEPLOY_TOKEN }}' https://profiler.next-linux.systems/.control/stop"
       - name: Wait for redeploy
         run: sleep 120
       - name: Check deployment status
-        run: "curl --retry 15 --retry-delay 60 https://profiler.lecoq.io/.version"
+        run: "curl --retry 15 --retry-delay 60 https://profiler.next-linux.systems/.version"
 
   # Publish GitHub release
   publish-release:
