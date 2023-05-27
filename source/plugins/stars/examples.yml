@@ -1,0 +1,8 @@
+- name: Recently starred
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.stars.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    plugin_stars: yes
+    plugin_stars_limit: 3

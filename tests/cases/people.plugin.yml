@@ -1,0 +1,18 @@
+- name: 🧑‍🤝‍🧑 People - Followers
+  uses: lowlighter/profiler@latest
+  with:
+    token: MOCKED_TOKEN
+    plugin_people: 'yes'
+    plugin_people_types: followers
+    use_mocked_data: 'yes'
+    verify: 'yes'
+- name: 🧑‍🤝‍🧑 People - Contributors and sponsors
+  uses: lowlighter/profiler@latest
+  with:
+    token: MOCKED_TOKEN
+    template: repository
+    repo: profiler
+    plugin_people: 'yes'
+    plugin_people_types: contributors, stargazers, watchers, sponsors
+    use_mocked_data: 'yes'
+    verify: 'yes'

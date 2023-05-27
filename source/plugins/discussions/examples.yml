@@ -1,0 +1,8 @@
+- name: GitHub Discussions
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.discussions.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    plugin_discussions: yes
+    plugin_discussions_categories_limit: 8

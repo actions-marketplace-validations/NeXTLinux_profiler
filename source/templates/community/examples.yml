@@ -1,0 +1,19 @@
+- name: Using a community template
+  uses: lowlighter/profiler@latest
+  with:
+    token: ${{ secrets.profiler_TOKEN }}
+    template: "@classic"
+    setup_community_templates: "lowlighter/profiler@master:classic"
+  test:
+    modes:
+      - action
+
+- name: Using a trusted community template
+  uses: lowlighter/profiler@latest
+  with:
+    token: ${{ secrets.profiler_TOKEN }}
+    template: "@terminal"
+    setup_community_templates: "lowlighter/profiler@master:terminal+trust"
+  test:
+    modes:
+      - action

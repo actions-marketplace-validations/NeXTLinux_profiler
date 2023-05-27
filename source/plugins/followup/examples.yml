@@ -1,0 +1,36 @@
+- name: Opened on user's repositories
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.followup.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    plugin_followup: yes
+
+- name: Opened by user
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.followup.user.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    plugin_followup: yes
+    plugin_followup_sections: user
+
+- name: Indepth analysis
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.followup.indepth.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    plugin_followup: yes
+    plugin_followup_indepth: yes
+
+- name: Exclude Archived
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.followup.archived.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    plugin_followup: yes
+    plugin_followup_archived: no
+  prod:
+    skip: true

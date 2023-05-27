@@ -1,0 +1,17 @@
+- name: Featured repositories
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.repositories.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    plugin_repositories: yes
+    plugin_repositories_featured: lowlighter/profiler
+
+- name: Pinned repositories
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.repositories.pinned.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    plugin_repositories: yes
+    plugin_repositories_pinned: 2

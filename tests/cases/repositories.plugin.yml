@@ -1,0 +1,16 @@
+- name: 📓 Featured repositories - Featured repositories
+  uses: lowlighter/profiler@latest
+  with:
+    token: MOCKED_TOKEN
+    plugin_repositories: 'yes'
+    plugin_repositories_featured: lowlighter/profiler
+    use_mocked_data: 'yes'
+    verify: 'yes'
+- name: 📓 Featured repositories - Pinned repositories
+  uses: lowlighter/profiler@latest
+  with:
+    token: MOCKED_TOKEN
+    plugin_repositories: 'yes'
+    plugin_repositories_pinned: 2
+    use_mocked_data: 'yes'
+    verify: 'yes'

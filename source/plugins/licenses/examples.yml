@@ -1,0 +1,28 @@
+- name: Licenses and permissions
+  with:
+    filename: profiler.plugin.licenses.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    template: repository
+    repo: profiler
+    plugin_licenses: yes
+    plugin_licenses_setup: "bash -c '[[ -f package.json ]] && npm ci || true'"
+  test:
+    timeout: 1800000
+    modes:
+      - action
+
+- name: Licenses with open-source ratio graphs
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.licenses.ratio.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: ""
+    template: repository
+    repo: profiler
+    plugin_licenses: yes
+    plugin_licenses_setup: "bash -c '[[ -f package.json ]] && npm ci || true'"
+    plugin_licenses_legal: no
+    plugin_licenses_ratio: yes
+  test:
+    skip: true

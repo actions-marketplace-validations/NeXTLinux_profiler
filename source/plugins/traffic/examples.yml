@@ -1,0 +1,10 @@
+- name: Repositories traffic
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.plugin.traffic.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: repositories
+    plugin_traffic: yes
+  prod:
+    with:
+      token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}

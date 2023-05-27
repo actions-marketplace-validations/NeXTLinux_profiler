@@ -1,0 +1,14 @@
+name: 📙 Terminal template
+description: |
+  A template mimicking a SSH session.
+examples:
+  default: https://github.com/lowlighter/profiler/blob/examples/profiler.terminal.svg
+index: 2
+supports:
+  - user
+  - organization
+formats:
+  - svg
+  - png
+  - jpeg
+  - json

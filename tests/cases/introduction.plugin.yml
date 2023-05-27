@@ -1,0 +1,19 @@
+- name: 🙋 Introduction - Organization introduction
+  uses: lowlighter/profiler@latest
+  with:
+    token: MOCKED_TOKEN
+    user: github
+    base: header
+    plugin_introduction: 'yes'
+    use_mocked_data: 'yes'
+    verify: 'yes'
+- name: 🙋 Introduction - Repository introduction
+  uses: lowlighter/profiler@latest
+  with:
+    token: MOCKED_TOKEN
+    template: repository
+    repo: profiler
+    base: header
+    plugin_introduction: 'yes'
+    use_mocked_data: 'yes'
+    verify: 'yes'

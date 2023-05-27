@@ -1,0 +1,8 @@
+- name: 📙 Terminal template - Example
+  uses: lowlighter/profiler@latest
+  with:
+    template: terminal
+    token: MOCKED_TOKEN
+    base: header, metadata
+    use_mocked_data: yes
+    verify: yes

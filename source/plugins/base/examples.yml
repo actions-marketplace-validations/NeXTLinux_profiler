@@ -1,0 +1,6 @@
+- name: Default profiler
+  uses: lowlighter/profiler@latest
+  with:
+    filename: profiler.base.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: header, activity, community, repositories, metadata

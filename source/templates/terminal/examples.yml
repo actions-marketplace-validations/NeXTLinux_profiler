@@ -1,0 +1,7 @@
+- name: Example
+  uses: lowlighter/profiler@latest
+  with:
+    template: terminal
+    filename: profiler.terminal.svg
+    token: ${{ secrets.profiler_TOKEN }}
+    base: header, metadata

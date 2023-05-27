@@ -1,0 +1,8 @@
+query Achievementsprofiler {
+  repository(owner: "lowlighter", name: "profiler") {
+    viewerHasStarred
+  }
+  viewer {
+    login
+  }
+}
