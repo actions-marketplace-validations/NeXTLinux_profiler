@@ -3,9 +3,9 @@ category: community
 description: |
   This plugin displays the stock market price of a given company.
 examples:
-  default: https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.stock.svg
+  default: https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.stock.svg
 authors:
-  - lowlighter
+  - nextlinux
 supports:
   - user
   - organization

@@ -1,5 +1,5 @@
 - name: Latest tweets
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.tweets.svg
     token: NOT_NEEDED
@@ -9,7 +9,7 @@
     plugin_tweets_user: github
 
 - name: Latest tweets including attachments
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.tweets.attachments.svg
     token: NOT_NEEDED

@@ -1,19 +1,19 @@
 - name: Using a community template
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: ${{ secrets.profiler_TOKEN }}
     template: "@classic"
-    setup_community_templates: "lowlighter/profiler@master:classic"
+    setup_community_templates: "nextlinux/profiler@master:classic"
   test:
     modes:
       - action
 
 - name: Using a trusted community template
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: ${{ secrets.profiler_TOKEN }}
     template: "@terminal"
-    setup_community_templates: "lowlighter/profiler@master:terminal+trust"
+    setup_community_templates: "nextlinux/profiler@master:terminal+trust"
   test:
     modes:
       - action

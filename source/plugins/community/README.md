@@ -3,25 +3,25 @@
   <tr><th colspan="2"><h3>🎲 Community plugins</h3></th></tr>
   <tr><td colspan="2" align="center">Additional plugins maintained by community for even more features!</td></tr>
   <tr>
-    <th><a href="/source/plugins/community/16personalities/README.md">🧠 16personalities</a><br><sup>by <a href="https://github.com/lowlighter">@lowlighter</a></sup></th>
-    <th><a href="/source/plugins/community/chess/README.md">♟️ Chess</a><br><sup>by <a href="https://github.com/lowlighter">@lowlighter</a></sup></th>
+    <th><a href="/source/plugins/community/16personalities/README.md">🧠 16personalities</a><br><sup>by <a href="https://github.com/nextlinux">@nextlinux</a></sup></th>
+    <th><a href="/source/plugins/community/chess/README.md">♟️ Chess</a><br><sup>by <a href="https://github.com/nextlinux">@nextlinux</a></sup></th>
   </tr>
   <tr>
     <td  align="center">
-      <img alt="" width="400" src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.16personalities.svg" alt=""></img>
+      <img alt="" width="400" src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.16personalities.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
     <td  align="center">
-      <img alt="" width="400" src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.chess.svg" alt=""></img>
+      <img alt="" width="400" src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.chess.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>  <tr>
-    <th><a href="/source/plugins/community/fortune/README.md">🥠 Fortune</a><br><sup>by <a href="https://github.com/lowlighter">@lowlighter</a></sup></th>
+    <th><a href="/source/plugins/community/fortune/README.md">🥠 Fortune</a><br><sup>by <a href="https://github.com/nextlinux">@nextlinux</a></sup></th>
     <th><a href="/source/plugins/community/nightscout/README.md">💉 Nightscout</a><br><sup>by <a href="https://github.com/legoandmars">@legoandmars</a></sup></th>
   </tr>
   <tr>
     <td  align="center">
-      <img alt="" width="400" src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.fortune.svg" alt=""></img>
+      <img alt="" width="400" src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.fortune.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
     <td  align="center">
@@ -30,7 +30,7 @@
     </td>
   </tr>  <tr>
     <th><a href="/source/plugins/community/poopmap/README.md">💩 PoopMap plugin</a><br><sup>by <a href="https://github.com/matievisthekat">@matievisthekat</a></sup></th>
-    <th><a href="/source/plugins/community/screenshot/README.md">📸 Website screenshot</a><br><sup>by <a href="https://github.com/lowlighter">@lowlighter</a></sup></th>
+    <th><a href="/source/plugins/community/screenshot/README.md">📸 Website screenshot</a><br><sup>by <a href="https://github.com/nextlinux">@nextlinux</a></sup></th>
   </tr>
   <tr>
     <td  align="center">
@@ -38,20 +38,20 @@
       <img width="900" height="1" alt="">
     </td>
     <td  align="center">
-      <img alt="" width="400" src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.screenshot.svg" alt=""></img>
+      <img alt="" width="400" src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.screenshot.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>  <tr>
-    <th><a href="/source/plugins/community/splatoon/README.md">🦑 Splatoon</a><br><sup>by <a href="https://github.com/lowlighter">@lowlighter</a></sup></th>
-    <th><a href="/source/plugins/community/stock/README.md">💹 Stock prices</a><br><sup>by <a href="https://github.com/lowlighter">@lowlighter</a></sup></th>
+    <th><a href="/source/plugins/community/splatoon/README.md">🦑 Splatoon</a><br><sup>by <a href="https://github.com/nextlinux">@nextlinux</a></sup></th>
+    <th><a href="/source/plugins/community/stock/README.md">💹 Stock prices</a><br><sup>by <a href="https://github.com/nextlinux">@nextlinux</a></sup></th>
   </tr>
   <tr>
     <td  align="center">
-      <img alt="" width="400" src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.splatoon.svg" alt=""></img>
+      <img alt="" width="400" src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.splatoon.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
     <td  align="center">
-      <img alt="" width="400" src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.stock.svg" alt=""></img>
+      <img alt="" width="400" src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.stock.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -89,7 +89,7 @@ Please respect the following guidelines:
 To create a new plugin, clone and setup this repository first:
 
 ```shell
-git clone https://github.com/lowlighter/profiler.git
+git clone https://github.com/nextlinux/profiler.git
 cd profiler/
 npm install
 ```
@@ -366,7 +366,7 @@ It uses the same syntax as GitHub action and looks like below:
 
 ```yml
 - name: Test name
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.{name}.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -443,7 +443,7 @@ You're almost done, review the following checklist before submitting a pull requ
 - [x] I am ready!
   - [x] Checkout any generated files (in fact, don't run `npm run build`)
   - [x] Commit and push your changes (commits are squashed, no need to rebase)
-  - [x] Open a new [pull request](https://github.com/lowlighter/profiler/pulls)
+  - [x] Open a new [pull request](https://github.com/nextlinux/profiler/pulls)
   - [x] Post a screenshot or a render in the pull request so it can be previewed
 
 > 💡 A pull request **will need** to have passing builds and an example screenshot if you want to get it merged.

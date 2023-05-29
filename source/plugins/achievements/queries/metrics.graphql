@@ -1,5 +1,5 @@
 query Achievementsprofiler {
-  repository(owner: "lowlighter", name: "profiler") {
+  repository(owner: "nextlinux", name: "profiler") {
     viewerHasStarred
   }
   viewer {

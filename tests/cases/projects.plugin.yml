@@ -1,9 +1,9 @@
 - name: 🗂️ GitHub projects - Project from a repository
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     plugin_projects: 'yes'
-    plugin_projects_repositories: lowlighter/profiler/projects/1
+    plugin_projects_repositories: nextlinux/profiler/projects/1
     plugin_projects_descriptions: 'yes'
     use_mocked_data: 'yes'
     verify: 'yes'

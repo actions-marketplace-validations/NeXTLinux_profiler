@@ -33,7 +33,7 @@ Configure `config_timezone` (see [supported timezone](https://en.wikipedia.org/w
 _Example: configuring timezone_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_timezone: Europe/Paris
 ```
@@ -45,7 +45,7 @@ Content can be manually ordered using `config_order` option.
 _Example: display base.header, isocalendar, languages and stars in this specific order_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     base: header
     plugin_isocalendar: yes
@@ -131,24 +131,24 @@ Options resolution is done in the following order:
 _Example: using a configuration preset from an url_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
-    config_presets: https://raw.githubusercontent.com/lowlighter/profiler/presets/lunar-red/preset.yaml
+    config_presets: https://raw.githubusercontent.com/nextlinux/profiler/presets/lunar-red/preset.yaml
 ```
 
-Some presets are hosted on this repository on the [`@presets`](https://github.com/lowlighter/profiler/tree/presets) branch and can be used directly by using their identifier prefixed by an arobase (`@`).
+Some presets are hosted on this repository on the [`@presets`](https://github.com/nextlinux/profiler/tree/presets) branch and can be used directly by using their identifier prefixed by an arobase (`@`).
 
 _Example: using a pre-defined configuration preset_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_presets: "@lunar-red"
 ```
 
 > ⚠️ `🔐 Tokens` and options marked with `⏯️ Cannot be preset`, as they suggest, cannot be preset and thus requires to be explicitly defined to be set.
 
-> ℹ️ Presets configurations use [schemas](https://github.com/lowlighter/profiler/tree/presets/%40schema) to ensure compatibility between format changes
+> ℹ️ Presets configurations use [schemas](https://github.com/nextlinux/profiler/tree/presets/%40schema) to ensure compatibility between format changes
 
 ## 🎨 Custom CSS styling
 
@@ -157,7 +157,7 @@ Additional CSS can be injected using `extras_css` option.
 _Example: changing the color of `h2`_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     base: header
     extras_css: |
@@ -179,7 +179,7 @@ Additional JavaScript can be injected using `extras_js` option.
 _Example: removing all `h2`_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     base: header
     extras_js: |
@@ -219,7 +219,7 @@ Each value need to respect the following format:
 _Example: add 10px padding for both width and height_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_padding: 10
 ```
@@ -227,7 +227,7 @@ _Example: add 10px padding for both width and height_
 _Example: add 10px padding to height and increase it by 8%_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_padding: 0, 10 + 8%
 ```
@@ -235,7 +235,7 @@ _Example: add 10px padding to height and increase it by 8%_
 _Example: remove 10% from height_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_padding: 0, -10%
 ```
@@ -251,7 +251,7 @@ The `columns` display will render a full-width image with automatic resizing: tw
 _Example: output a PNG image_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_display: large
 ```
@@ -263,7 +263,7 @@ Use `config_output` to change output format.
 _Example: output a PNG image_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_output: png
 ```
@@ -273,7 +273,7 @@ A JSON output can be used to retrieved collected data and use it elsewhere.
 _Example: output a JSON data dump_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_output: json
 ```
@@ -283,7 +283,7 @@ When using a PDF output, it is advised to set `config_base64: yes` to encode emb
 _Example: output a self-contained PDF document_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     markdown: TEMPLATE.md
     config_output: markdown-pdf
@@ -299,7 +299,7 @@ It is possible to generate a self-contained HTML file containing `✨ profiler i
 _Example: output `✨ profiler insights` report_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     config_output: insights
 ```
@@ -328,7 +328,7 @@ profiler:
   permissions:
     contents: write
   steps:
-    - uses: lowlighter/profiler@latest
+    - uses: nextlinux/profiler@latest
       with:
         output_action: commit
         committer_branch: profiler-renders
@@ -351,12 +351,12 @@ profiler:
     contents: write
     pull-requests: write
   steps:
-    - uses: lowlighter/profiler@latest
+    - uses: nextlinux/profiler@latest
       with:
         filename: my-profiler-0.svg
         output_action: pull-request
 
-    - uses: lowlighter/profiler@latest
+    - uses: nextlinux/profiler@latest
       with:
         filename: my-profiler-1.svg
         output_action: pull-request-merge
@@ -374,7 +374,7 @@ _Example: push output to a gist_
 ```yaml
 profiler:
   steps:
-    - uses: lowlighter/profiler@latest
+    - uses: nextlinux/profiler@latest
       with:
         output_action: gist
         committer_gist: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -397,11 +397,11 @@ profiler:
         with:
           fetch-depth: 0
 
-    - uses: lowlighter/profiler@latest
+    - uses: nextlinux/profiler@latest
       with:
         output_action: none
 
-    - uses: lowlighter/profiler@latest
+    - uses: nextlinux/profiler@latest
       run: |
         set +e
         git checkout profiler-renders
@@ -421,7 +421,7 @@ Use `retries` and `retries_delay` options to automatically retry rendering.
 _Example: retry render up to 3 times (wait 5 minutes between each fail)_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     retries: 3
     retries_delay: 300
@@ -435,7 +435,7 @@ Use `retries_output_action` and `retries_delay_output_action` options to automat
 _Example: retry output action up to 5 times (wait 2 minutes between each fail)_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     retries_output_action: 5
     retries_delay_output_action: 120
@@ -450,7 +450,7 @@ To reduce filesize and decrease loading time, _profiler_ offers several optimiza
 _Example: optimize CSS and XML_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     optimize: css, xml
 ```
@@ -458,7 +458,7 @@ _Example: optimize CSS and XML_
 _Example: optimize SVG (experimental)_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     optimize: svg
     experimental_features: --optimize-svg
@@ -466,7 +466,7 @@ _Example: optimize SVG (experimental)_
 
 ## 🐳 Faster execution with prebuilt docker images
 
-When using `lowlighter/profiler` official releases as a GitHub Action, a prebuilt docker container image will be pulled from [GitHub Container Registry](https://github.com/users/lowlighter/packages/container/package/profiler). It allows to significantly reduce workflow execution time.
+When using `nextlinux/profiler` official releases as a GitHub Action, a prebuilt docker container image will be pulled from [GitHub Container Registry](https://github.com/users/nextlinux/packages/container/package/profiler). It allows to significantly reduce workflow execution time.
 
 > 💡 This option is enabled by default!
 
@@ -475,7 +475,7 @@ On forks, this feature is disable to take into account any changes you made on i
 _Example: using prebuilt docker image_
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     use_prebuilt_image: yes
 ```
@@ -667,7 +667,7 @@ When doing so, any settings which defaults on user fetched values will not be te
   <tr>
     <td nowrap="nowrap"><h4><code>setup_community_templates</code></h4></td>
     <td rowspan="2"><p>Community templates to setup</p>
-<p>See <a href="https://github.com/lowlighter/profiler/blob/master/source/templates/community/README.md">community templates guide</a> for more informations</p>
+<p>See <a href="https://github.com/nextlinux/profiler/blob/master/source/templates/community/README.md">community templates guide</a> for more informations</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
@@ -683,7 +683,7 @@ When doing so, any settings which defaults on user fetched values will not be te
     <td nowrap="nowrap"><h4><code>template</code></h4></td>
     <td rowspan="2"><p>Template</p>
 <p>Community templates must be prefixed by at sign (<code>@</code>)
-See <a href="https://github.com/lowlighter/profiler/blob/master/README.md#%EF%B8%8F-templates">list of supported templates</a></p>
+See <a href="https://github.com/nextlinux/profiler/blob/master/README.md#%EF%B8%8F-templates">list of supported templates</a></p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
@@ -848,7 +848,7 @@ Size must be a supported icon size (12, 16 or 24).
 <li><code>regular</code>: 480px width</li>
 <li><code>large</code>: 960px width (may not be supported by all templates)</li>
 <li><code>columns</code>: Full width with auto-sizing (two columns for desktops, and one column for mobile)<ul>
-<li>known issue: <a href="https://github.com/lowlighter/profiler/issues/374">https://github.com/lowlighter/profiler/issues/374</a></li>
+<li>known issue: <a href="https://github.com/nextlinux/profiler/issues/374">https://github.com/nextlinux/profiler/issues/374</a></li>
 </ul>
 </li>
 </ul>
@@ -1085,7 +1085,7 @@ Be sure to disable this option when asking for help or submitting bug reports.</
   </tr>
   <tr>
     <td nowrap="nowrap"><h4><code>use_prebuilt_image</code></h4></td>
-    <td rowspan="2"><p>Use pre-built docker image from <a href="https://github.com/lowlighter/profiler/pkgs/container/profiler">GitHub container registry</a></p>
+    <td rowspan="2"><p>Use pre-built docker image from <a href="https://github.com/nextlinux/profiler/pkgs/container/profiler">GitHub container registry</a></p>
 <p>It allows to save build time and make job significantly faster, and there is almost no reason to disable this settings.
 This option has no effects on forks (images will always be rebuilt from Dockerfile)</p>
 <img width="900" height="1" alt=""></td>

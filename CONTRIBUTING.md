@@ -8,11 +8,11 @@ Be sure to read [ARCHITECTURE.md](/ARCHITECTURE.md) first to understand how `pro
 
 Before working on something, ensure that it will not duplicate any active open pull requests (including drafts).
 
-It is advised to open a [`💬 discussion`](https://github.com/lowlighter/profiler/discussions) first to gather feedback about new features.
+It is advised to open a [`💬 discussion`](https://github.com/nextlinux/profiler/discussions) first to gather feedback about new features.
 
 > ⚠️ To avoid an ever-growing backlog, inactive pull requests will be closed after 3 weeks and locked after 5 weeks.
 
-> 😅 Be positive! Even if your changes don't get merged in [lowlighter/profiler](https://github.com/lowlighter/profiler), please don't be too sad, you will always be able to run workflows directly from your fork!
+> 😅 Be positive! Even if your changes don't get merged in [nextlinux/profiler](https://github.com/nextlinux/profiler), please don't be too sad, you will always be able to run workflows directly from your fork!
 
 ## 🤝 Accepted contributions
 
@@ -43,7 +43,7 @@ The following contributions are accepted:
     <td>
       <ul>
         <li>Template changes are allowed with new features additions (but must remain consistent with current visuals)</li>
-        <li>New templates should use <a href="https://github.com/lowlighter/profiler/blob/master/source/templates/community/README.md">📕 Community templates</a> instead</li>
+        <li>New templates should use <a href="https://github.com/nextlinux/profiler/blob/master/source/templates/community/README.md">📕 Community templates</a> instead</li>
       </ul>
     </td>
   </tr>
@@ -54,7 +54,7 @@ The following contributions are accepted:
     <td>
       <ul>
         <li>New presets are welcomed provided they're functional and not redundant with existing presets</li>
-        <li>Note that presets are on <code><a href="https://github.com/lowlighter/profiler/tree/presets">@presets</a></code> branch</li>
+        <li>Note that presets are on <code><a href="https://github.com/nextlinux/profiler/tree/presets">@presets</a></code> branch</li>
       </ul>
     </td>
   </tr>

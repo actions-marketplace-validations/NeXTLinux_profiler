@@ -32,7 +32,7 @@ As a general rule, the following scopes may be required:
 - `read:project` for some projects related profiler
 - `gist` for publishing renders to gists instead of a repository
 
-> 💡 For security reasons, it is advised to always use the least amount of scopes. It is possible to prevent security issues by [forking this repository](https://github.com/lowlighter/profiler/fork) and using it in your workflow instead (more information available in step 3)
+> 💡 For security reasons, it is advised to always use the least amount of scopes. It is possible to prevent security issues by [forking this repository](https://github.com/nextlinux/profiler/fork) and using it in your workflow instead (more information available in step 3)
 
 ![Setup a GitHub personal token](/.github/readme/imgs/setup_personal_token.light.png#gh-light-mode-only)
 ![Setup a GitHub personal token](/.github/readme/imgs/setup_personal_token.dark.png#gh-dark-mode-only)
@@ -44,7 +44,7 @@ A scope-less token can still display private contributions by enabling `Include 
 
 When a plugin has not enough scopes to operate (and `plugins_errors_fatal` is disabled), an error will be reported in the rendering like below:
 
-![Plugin error example](https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.error.svg)
+![Plugin error example](https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.error.svg)
 
 ## 2️ Put your GitHub personal token in repository secrets
 
@@ -72,7 +72,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/profiler@latest
+      - uses: nextlinux/profiler@latest
         with:
           token: ${{ secrets.profiler_TOKEN }}
 ```
@@ -93,11 +93,11 @@ There are several _profiler_ versions that can be used in workflows:
 - `@master`/`@main`
   - ✔️ Enjoy new features and bug fixes as they're being released
   - ✔️ Helps discovering new issues
-  - ➖ Jobs may fail occasionally (watch [issues](https://github.com/lowlighter/profiler/issues) and [discussions](https://github.com/lowlighter/profiler/discussions) for bug tracking)
+  - ➖ Jobs may fail occasionally (watch [issues](https://github.com/nextlinux/profiler/issues) and [discussions](https://github.com/nextlinux/profiler/discussions) for bug tracking)
 - `@{fork}`
   - ✔️ Secure as you're in control
   - ✔️ Advised when using additional scopes in personal access token
-  - ➖ Manual updates (watch new [releases](https://github.com/lowlighter/profiler/releases) for updates)
+  - ➖ Manual updates (watch new [releases](https://github.com/nextlinux/profiler/releases) for updates)
 - `@v{x}.{x}`
   - ➖ Pinned versions have no real advantages
 

@@ -1,5 +1,5 @@
 - name: Mildly interesting facts
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.habits.facts.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -10,7 +10,7 @@
     config_timezone: Europe/Paris
 
 - name: Recent activity charts
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.habits.charts.svg
     token: ${{ secrets.profiler_TOKEN }}

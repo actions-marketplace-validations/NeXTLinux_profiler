@@ -234,7 +234,7 @@ export default async function({faker}, target, that, [{username: login, page, pe
           login,
         },
         repo: {
-          name: "lowlighter/profiler",
+          name: "nextlinux/profiler",
         },
         payload: {action: "started"},
         created_at: faker.date.recent(7),
@@ -272,7 +272,7 @@ export default async function({faker}, target, that, [{username: login, page, pe
             {
               sha: "MOCKED_SHA",
               message: faker.lorem.sentence(),
-              url: "https://api.github.com/repos/lowlighter/profiler/commits/MOCKED_SHA",
+              url: "https://api.github.com/repos/nextlinux/profiler/commits/MOCKED_SHA",
               author: {
                 email: faker.internet.email(),
               },

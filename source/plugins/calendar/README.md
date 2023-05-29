@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details><summary>Current year</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.calendar.svg" alt=""></img></details>
-      <details open><summary>Full history</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.calendar.full.svg" alt=""></img></details>
+      <details><summary>Current year</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.calendar.svg" alt=""></img></details>
+      <details open><summary>Full history</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.calendar.full.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -73,7 +73,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: Current year calendar
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.calendar.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -83,7 +83,7 @@ with:
 
 ```yaml
 name: Full history calendar
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.calendar.full.svg
   token: ${{ secrets.profiler_TOKEN }}

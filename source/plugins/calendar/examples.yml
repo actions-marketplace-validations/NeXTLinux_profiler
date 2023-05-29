@@ -1,5 +1,5 @@
 - name: Current year calendar
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.calendar.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -7,7 +7,7 @@
     plugin_calendar: yes
 
 - name: Full history calendar
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.calendar.full.svg
     token: ${{ secrets.profiler_TOKEN }}

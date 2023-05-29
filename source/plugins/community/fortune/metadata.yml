@@ -3,9 +3,9 @@ category: community
 description: |
   This plugins displays a random fortune message
 examples:
-  default: https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.fortune.svg
+  default: https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.fortune.svg
 authors:
-  - lowlighter
+  - nextlinux
 supports:
   - user
 scopes: []

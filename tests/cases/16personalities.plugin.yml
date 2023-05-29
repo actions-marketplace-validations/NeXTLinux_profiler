@@ -1,5 +1,5 @@
 - name: 🧠 16personalities - MBTI Personality profile
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     plugin_16personalities: 'yes'

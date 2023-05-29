@@ -19,10 +19,10 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Indepth analysis (clone and analyze repositories)</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.languages.indepth.svg" alt=""></img></details>
-      <details open><summary>Recently used (analyze recent activity events)</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.languages.recent.svg" alt=""></img></details>
-      <details><summary>Default algorithm</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.languages.svg" alt=""></img></details>
-      <details><summary>Default algorithm (with details)</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.languages.details.svg" alt=""></img></details>
+      <details open><summary>Indepth analysis (clone and analyze repositories)</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.languages.indepth.svg" alt=""></img></details>
+      <details open><summary>Recently used (analyze recent activity events)</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.languages.recent.svg" alt=""></img></details>
+      <details><summary>Default algorithm</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.languages.svg" alt=""></img></details>
+      <details><summary>Default algorithm (with details)</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.languages.details.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -173,9 +173,9 @@ It will be automatically hidden if empty.</p>
 <p>Specify a list of additional repositories to analyze.</p>
 <p>Below are the supported syntax formats:</p>
 <ul>
-<li><code>owner/repo</code> (e.g. <code>lowlighter/profiler</code>)</li>
-<li><code>owner/repo@branch</code> (e.g. <code>lowlighter/profiler@main</code>)</li>
-<li><code>owner/repo@branch:commits</code> (e.g. <code>lowlighter/profiler@main:v1.0..v1.1</code>)<ul>
+<li><code>owner/repo</code> (e.g. <code>nextlinux/profiler</code>)</li>
+<li><code>owner/repo@branch</code> (e.g. <code>nextlinux/profiler@main</code>)</li>
+<li><code>owner/repo@branch:commits</code> (e.g. <code>nextlinux/profiler@main:v1.0..v1.1</code>)<ul>
 <li>See <a href="https://git-scm.com/docs/git-rev-list#_description"><code>git rev-list</code></a> documentation for more information about <code>commits</code> syntax</li>
 </ul>
 </li>
@@ -285,7 +285,7 @@ Since git lets you use any email and username for commits, _profiler_ may not be
 _Example: configuring `indepth` mode_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_languages: yes
     plugin_languages_indepth: yes
@@ -366,7 +366,7 @@ It will fetch a specified amount of recent push events and perform linguistic an
 _Example: display recently used languages from 400 GitHub events from last 2 weeks_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_languages: yes
     plugin_languages_sections: recently-used
@@ -381,20 +381,20 @@ _Example: display recently used languages from 400 GitHub events from last 2 wee
 Several options lets you customize which languages should be displayed.
 It is possible to ignore completely languages or those lower than a given threshold, skip repositories, and filter by language categories.
 
-_Example: hide HTML and CSS languages, skip lowlighter/profiler repository_
+_Example: hide HTML and CSS languages, skip nextlinux/profiler repository_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_languages: yes
     plugin_languages_ignored: html, css
-    plugin_languages_skipped: lowlighter/profiler
+    plugin_languages_skipped: nextlinux/profiler
 ```
 
 _Example: hide languages with less than 2% usage_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_languages: yes
     plugin_languages_threshold: 2%
@@ -408,7 +408,7 @@ Supported categories are `data`, `markup`, `programming` and `prose`.
 _Example: hide data and prose languages from stats_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_languages: yes
     plugin_languages_categories: data, prose
@@ -431,7 +431,7 @@ Both hexadecimal and [named color](https://developer.mozilla.org/en-US/docs/Web/
 _Example: using a predefined color set_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_languages: yes
     plugin_languages_colors: rainbow
@@ -441,7 +441,7 @@ _Example: using a predefined color set_
 _Example: setting JavaScript to red, the first language to blue and the second one to `#ff00aa`_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_languages: yes
     plugin_languages_colors: javascript:red, 0:blue, 1:#ff00aa
@@ -456,7 +456,7 @@ To mitigate this, it is possible to use `plugin_languages_aliases` option and pr
 _Example: display JavaScript as JS and TypeScript as TS_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_languages: yes
     plugin_languages_aliases: javascript:JS typescript:TS
@@ -468,7 +468,7 @@ _Example: display JavaScript as JS and TypeScript as TS_
 
 ```yaml
 name: Most used
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.languages.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -482,7 +482,7 @@ with:
 
 ```yaml
 name: Most used (with details)
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.languages.details.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -497,7 +497,7 @@ with:
 
 ```yaml
 name: Recently used
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.languages.recent.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -513,7 +513,7 @@ with:
 
 ```yaml
 name: Indepth analysis
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.languages.indepth.svg
   token: ${{ secrets.profiler_TOKEN }}

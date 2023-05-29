@@ -1,6 +1,6 @@
 # 📒 Markdown template example
 
-See [rendering of this file here](https://github.com/lowlighter/profiler/blob/examples/profiler.markdown.full.md) and [original template source here](https://github.com/lowlighter/profiler/blob/master/source/templates/markdown/example.md).
+See [rendering of this file here](https://github.com/nextlinux/profiler/blob/examples/profiler.markdown.full.md) and [original template source here](https://github.com/nextlinux/profiler/blob/master/source/templates/markdown/example.md).
 
 ## 🧩 Plugins with markdown version
 

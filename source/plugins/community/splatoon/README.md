@@ -9,7 +9,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <p>This specific plugin is licensed under GPL-3.0 rather than MIT to comply with <a href="https://github.com/spacemeowx2/s3si.ts">spacemeowx2/s3si.ts</a> license.</p>
 <p>Note that <em>Nintendo Switch Online</em> web tokens usage are not explicitly allowed by <em>Nintendo</em>, use at your own risk.</p>
 </td></tr>
-<tr><th>Authors</th><td><a href="https://github.com/lowlighter">@lowlighter</a></td></tr>
+<tr><th>Authors</th><td><a href="https://github.com/nextlinux">@nextlinux</a></td></tr>
   <tr>
     <th rowspan="3">Supported features<br><sub><a href="metadata.yml">→ Full specification</a></sub></th>
     <td><a href="/source/templates/classic/README.md"><code>📗 Classic template</code></a></td>
@@ -22,7 +22,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.splatoon.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.splatoon.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -156,7 +156,7 @@ The helper script is intended to be run by [deno runtime](https://deno.land/). E
 Run the following command in your terminal and follow instructions:
 
 ```bash
-deno run --allow-run=deno --allow-read=profile.json --allow-write=profile.json --unstable https://raw.githubusercontent.com/lowlighter/profiler/master/source/plugins/community/splatoon/token.ts
+deno run --allow-run=deno --allow-read=profile.json --allow-write=profile.json --unstable https://raw.githubusercontent.com/nextlinux/profiler/master/source/plugins/community/splatoon/token.ts
 ```
 
 ![Script](/.github/readme/imgs/plugin_splatoon_script.png)
@@ -186,7 +186,7 @@ Data are fetched using [spacemeowx2/s3si.ts](https://github.com/spacemeowx2/s3si
 
 ```yaml
 name: Splatnet data
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.splatoon.svg
   token: NOT_NEEDED
@@ -197,7 +197,7 @@ with:
 
 ```yaml
 name: Splatnet data with stat.ink integration
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.splatoon.svg
   token: NOT_NEEDED

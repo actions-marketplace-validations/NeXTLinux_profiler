@@ -1,5 +1,5 @@
 - name: GitHub Skyline
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.skyline.svg
     token: NOT_NEEDED
@@ -14,7 +14,7 @@
       - action
 
 - name: GitHub City
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.skyline.city.svg
     token: NOT_NEEDED

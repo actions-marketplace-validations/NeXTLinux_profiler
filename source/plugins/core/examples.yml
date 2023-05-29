@@ -1,5 +1,5 @@
 - name: Organization
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.organization.svg
     user: github
@@ -7,7 +7,7 @@
     base: header, repositories
 
 - name: Large display
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.large.svg
     token: ${{ secrets.profiler_TOKEN }}
@@ -15,7 +15,7 @@
 
 - name: JSON profiler
   if: ${{ success() || failure() }}
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.example.json
     token: ${{ secrets.profiler_TOKEN }}
@@ -23,7 +23,7 @@
 
 - name: PNG profiler
   if: ${{ success() || failure() }}
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.example.png
     token: ${{ secrets.profiler_TOKEN }}
@@ -31,19 +31,19 @@
 
 - name: profiler insights
   if: ${{ success() || failure() }}
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.insights.html
     token: ${{ secrets.profiler_TOKEN }}
     config_output: insights
 
 - name: Presets
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.presets.svg
     token: ${{ secrets.profiler_TOKEN }}
     base: header, repositories
-    config_presets: https://raw.githubusercontent.com/lowlighter/profiler/presets/lunar-red/preset.yaml
+    config_presets: https://raw.githubusercontent.com/nextlinux/profiler/presets/lunar-red/preset.yaml
   prod:
     skip: true
   test:
@@ -51,7 +51,7 @@
       - web
 
 - name: Plugin error example
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.error.svg
     token: ${{ secrets.profiler_TOKEN }}

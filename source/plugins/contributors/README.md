@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>By contribution types</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.contributors.categories.svg" alt=""></img></details>
-      <details><summary>By number of contributions</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.contributors.contributions.svg" alt=""></img></details>
+      <details open><summary>By contribution types</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.contributors.categories.svg" alt=""></img></details>
+      <details><summary>By number of contributions</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.contributors.contributions.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -141,7 +141,7 @@ Each modified file by a contributor matching a file glob will add them in said c
 _Example: _
 
 ```yaml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_contributors: yes
     plugin_contributors_categories: |
@@ -158,7 +158,7 @@ _Example: _
 
 ```yaml
 name: Contributors with contributions count
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.contributors.contributions.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -171,7 +171,7 @@ with:
 
 ```yaml
 name: Contributors by categories
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.contributors.categories.svg
   token: ${{ secrets.profiler_TOKEN }}

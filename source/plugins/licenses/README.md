@@ -27,8 +27,8 @@ This could result in compromised server!</p>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Permissions, limitations and conditions</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.licenses.svg" alt=""></img></details>
-      <details open><summary>Licenses overview</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.licenses.ratio.svg" alt=""></img></details>
+      <details open><summary>Permissions, limitations and conditions</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.licenses.svg" alt=""></img></details>
+      <details open><summary>Licenses overview</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.licenses.ratio.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -135,7 +135,7 @@ with:
 
 ```yaml
 name: Licenses with open-source ratio graphs
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.licenses.ratio.svg
   token: ${{ secrets.profiler_TOKEN }}

@@ -3,7 +3,7 @@ description: |
   A template mimicking GitHub visual identity.
   This is also the default template.
 examples:
-  default: https://github.com/lowlighter/profiler/blob/examples/profiler.classic.svg
+  default: https://github.com/nextlinux/profiler/blob/examples/profiler.classic.svg
 index: 0
 supports:
   - user

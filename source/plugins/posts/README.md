@@ -16,8 +16,8 @@
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Latest posts width description and cover image</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.posts.full.svg" alt=""></img></details>
-      <details><summary>Latest posts</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.posts.svg" alt=""></img></details>
+      <details open><summary>Latest posts width description and cover image</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.posts.full.svg" alt=""></img></details>
+      <details><summary>Latest posts</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.posts.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -108,7 +108,7 @@
 
 ```yaml
 name: Recent posts
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.posts.svg
   token: NOT_NEEDED
@@ -119,7 +119,7 @@ with:
 
 ```yaml
 name: Recent posts with descriptions and cover images
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.posts.full.svg
   token: NOT_NEEDED

@@ -7,7 +7,7 @@ on:
 jobs:
   examples:
     runs-on: ubuntu-latest
-    if: "github.repository == 'lowlighter/profiler'"
+    if: github.repository == 'nextlinux/profiler'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

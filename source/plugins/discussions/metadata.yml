@@ -3,7 +3,7 @@ category: github
 description: |
   This plugin displays GitHub discussions stats.
 examples:
-  default: https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.discussions.svg
+  default: https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.discussions.svg
 index: 15
 supports:
   - user

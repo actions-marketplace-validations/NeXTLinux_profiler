@@ -28,4 +28,4 @@
   </tr><% } %>
 </table>
 
-_Note: **markdown template** can actually render any kind of SVG profiler using [`embed` function](https://github.com/lowlighter/profiler/blob/master/source/templates/markdown/example.md#embedding-svg-profiler)_
+_Note: **markdown template** can actually render any kind of SVG profiler using [`embed` function](https://github.com/nextlinux/profiler/blob/master/source/templates/markdown/example.md#embedding-svg-profiler)_

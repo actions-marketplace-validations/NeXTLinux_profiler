@@ -1,5 +1,5 @@
 - name: Last chess game from lichess.org
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.chess.svg
     token: NOT_NEEDED

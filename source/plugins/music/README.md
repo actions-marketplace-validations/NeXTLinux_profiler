@@ -20,8 +20,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Random tracks from a playlist</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.music.playlist.svg" alt=""></img></details>
-      <details open><summary>Recently listened</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.music.recent.svg" alt=""></img></details>
+      <details open><summary>Random tracks from a playlist</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.music.playlist.svg" alt=""></img></details>
+      <details open><summary>Recently listened</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.music.recent.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -275,7 +275,7 @@ Extract the source link from the code pasted in your clipboard:
 
 _(Not available)_
 
-> 😥 Unfortunately I wasn't able to find a workaround to avoid paying the $99 fee for the developer program, even using workarounds like _smart playlists_, _shortcuts_ and other stuff. However if you really want this feature, you could [sponsor me](github.com/sponsors/lowlighter) and I could eventually invest in a developer account with enough money, implement it and also eventually offer service on the shared instance
+> 😥 Unfortunately I wasn't able to find a workaround to avoid paying the $99 fee for the developer program, even using workarounds like _smart playlists_, _shortcuts_ and other stuff. However if you really want this feature, you could [sponsor me](github.com/sponsors/nextlinux) and I could eventually invest in a developer account with enough money, implement it and also eventually offer service on the shared instance
 
 ### 🔗 Get an embed playlist url for `plugin_music_playlist`
 
@@ -341,7 +341,7 @@ _(Not available)_
 
 ```yaml
 name: Apple Music - Random track from playlist
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.music.playlist.svg
   token: NOT_NEEDED
@@ -353,7 +353,7 @@ with:
 
 ```yaml
 name: Spotify - Random track from playlist
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.music.playlist.spotify.svg
   token: NOT_NEEDED
@@ -364,7 +364,7 @@ with:
 
 ```yaml
 name: Spotify - Recently listed
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.music.recent.svg
   token: NOT_NEEDED
@@ -378,7 +378,7 @@ with:
 
 ```yaml
 name: Spotify - Top tracks
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   token: NOT_NEEDED
   base: ""
@@ -392,7 +392,7 @@ with:
 
 ```yaml
 name: Spotify - Top artists
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   token: NOT_NEEDED
   base: ""
@@ -406,7 +406,7 @@ with:
 
 ```yaml
 name: Youtube Music - Random track from playlist
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   token: NOT_NEEDED
   base: ""
@@ -417,7 +417,7 @@ with:
 
 ```yaml
 name: Youtube Music - Recently listed
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   token: NOT_NEEDED
   base: ""
@@ -429,7 +429,7 @@ with:
 
 ```yaml
 name: Last.fm  - Recently listed
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   token: NOT_NEEDED
   base: ""

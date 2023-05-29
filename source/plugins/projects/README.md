@@ -19,7 +19,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.projects.svg" alt=""></img>
+      <img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.projects.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -114,10 +114,10 @@ Be sure to tick `Track project progress` in project settings to display a progre
 _Example: include a project repository_
 
 ```yml
-- uses: lowlighter/profiler@latest
+- uses: nextlinux/profiler@latest
   with:
     plugin_projects: yes
-    plugin_projects_repositories: lowlighter/profiler/projects/1
+    plugin_projects_repositories: nextlinux/profiler/projects/1
 ```
 
 ## ℹ️ Examples workflows
@@ -126,13 +126,13 @@ _Example: include a project repository_
 
 ```yaml
 name: Project from a repository
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.projects.svg
   token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}
   base: ""
   plugin_projects: yes
-  plugin_projects_repositories: lowlighter/profiler/projects/1
+  plugin_projects_repositories: nextlinux/profiler/projects/1
   plugin_projects_descriptions: yes
 ```
 

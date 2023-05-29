@@ -1,5 +1,5 @@
 - name: LeetCode
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     filename: profiler.plugin.leetcode.svg
     token: NOT_NEEDED

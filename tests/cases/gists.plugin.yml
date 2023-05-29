@@ -1,5 +1,5 @@
 - name: 🎫 Gists - Gists
-  uses: lowlighter/profiler@latest
+  uses: nextlinux/profiler@latest
   with:
     token: MOCKED_TOKEN
     plugin_gists: 'yes'

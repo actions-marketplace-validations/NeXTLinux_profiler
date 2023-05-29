@@ -20,8 +20,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>With icons</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.topics.icons.svg" alt=""></img></details>
-      <details open><summary>With labels</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.topics.svg" alt=""></img></details>
+      <details open><summary>With icons</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.topics.icons.svg" alt=""></img></details>
+      <details open><summary>With labels</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.topics.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -106,7 +106,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: Labels
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.topics.svg
   token: NOT_NEEDED
@@ -117,7 +117,7 @@ with:
 
 ```yaml
 name: Icons
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.topics.icons.svg
   token: NOT_NEEDED

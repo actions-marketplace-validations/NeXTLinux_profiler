@@ -3,8 +3,8 @@ category: github
 description: |
   This plugin display repositories contributors from a commit range along with additional stats.
 examples:
-  +by contribution types: https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.contributors.categories.svg
-  by number of contributions: https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.contributors.contributions.svg
+  +by contribution types: https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.contributors.categories.svg
+  by number of contributions: https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.contributors.contributions.svg
 index: 8
 supports:
   - repository

@@ -42,7 +42,7 @@ echo "Image tag: $profiler_TAG"
 
 # Image name
 # Official action
-if [[ $profiler_SOURCE == "lowlighter" ]]; then
+if [[ $profiler_SOURCE == "nextlinux" ]]; then
   # Use registry with pre-built images
   if [[ ! $profiler_USE_PREBUILT_IMAGE =~ ^([Ff]alse|[Oo]ff|[Nn]o|0)$ ]]; then
     # Is released version
@@ -54,7 +54,7 @@ if [[ $profiler_SOURCE == "lowlighter" ]]; then
       profiler_TAG="$profiler_TAG-beta"
       echo "Image tag (updated): $profiler_TAG"
     fi
-    profiler_IMAGE=ghcr.io/lowlighter/profiler:$profiler_TAG
+    profiler_IMAGE=ghcr.io/nextlinux/profiler:$profiler_TAG
     echo "Using pre-built version $profiler_TAG, will pull docker image from GitHub registry"
     if ! docker image pull $profiler_IMAGE; then
       echo "Failed to fetch docker image from GitHub registry, will rebuild it locally"

@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Related to a user</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.people.followers.svg" alt=""></img></details>
-      <details><summary>Related to a repository</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.people.repository.svg" alt=""></img></details>
+      <details open><summary>Related to a user</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.people.followers.svg" alt=""></img></details>
+      <details><summary>Related to a repository</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.people.repository.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -169,7 +169,7 @@ This will fetch additional data (10 times <a href="/source/plugins/people/README
 
 ```yaml
 name: Followers
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.people.followers.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -180,7 +180,7 @@ with:
 
 ```yaml
 name: Contributors and sponsors
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.people.repository.svg
   token: ${{ secrets.profiler_TOKEN }}

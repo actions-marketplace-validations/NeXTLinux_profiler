@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Latest tweets with attachments</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.tweets.attachments.svg" alt=""></img></details>
-      <details><summary>Latest tweets</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.tweets.svg" alt=""></img></details>
+      <details open><summary>Latest tweets with attachments</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.tweets.attachments.svg" alt=""></img></details>
+      <details><summary>Latest tweets</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.tweets.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -111,7 +111,7 @@ Create an app from the [developer dashboard](https://developer.twitter.com/en/po
 
 ```yaml
 name: Latest tweets
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.tweets.svg
   token: NOT_NEEDED
@@ -123,7 +123,7 @@ with:
 
 ```yaml
 name: Latest tweets including attachments
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.tweets.attachments.svg
   token: NOT_NEEDED

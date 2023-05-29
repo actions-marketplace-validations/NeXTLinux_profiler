@@ -19,8 +19,8 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Repositories from star lists</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.starlists.svg" alt=""></img></details>
-      <details open><summary>Languages from star lists</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.starlists.languages.svg" alt=""></img></details>
+      <details open><summary>Repositories from star lists</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.starlists.svg" alt=""></img></details>
+      <details open><summary>Languages from star lists</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.starlists.languages.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -159,7 +159,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ```yaml
 name: Featured star list
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.starlists.svg
   token: NOT_NEEDED
@@ -171,7 +171,7 @@ with:
 
 ```yaml
 name: Featured star list languages
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.starlists.languages.svg
   token: NOT_NEEDED

@@ -19,9 +19,9 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <details open><summary>Classic charts</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.stargazers.svg" alt=""></img></details>
-      <details><summary>Graph charts</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.stargazers.graph.svg" alt=""></img></details>
-      <details open><summary>Worldmap</summary><img src="https://github.com/lowlighter/profiler/blob/examples/profiler.plugin.stargazers.worldmap.svg" alt=""></img></details>
+      <details open><summary>Classic charts</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.stargazers.svg" alt=""></img></details>
+      <details><summary>Graph charts</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.stargazers.graph.svg" alt=""></img></details>
+      <details open><summary>Worldmap</summary><img src="https://github.com/nextlinux/profiler/blob/examples/profiler.plugin.stargazers.worldmap.svg" alt=""></img></details>
       <img width="900" height="1" alt="">
     </td>
   </tr>
@@ -152,7 +152,7 @@ Helps to avoid consuming too much Google Geocoding API requests while still bein
 
 ```yaml
 name: Using classic charts
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.stargazers.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -162,7 +162,7 @@ with:
 
 ```yaml
 name: Using graph charts
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.stargazers.graph.svg
   token: ${{ secrets.profiler_TOKEN }}
@@ -173,7 +173,7 @@ with:
 
 ```yaml
 name: With worldmap
-uses: lowlighter/profiler@latest
+uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.stargazers.worldmap.svg
   token: ${{ secrets.profiler_TOKEN }}
