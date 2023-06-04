@@ -33,10 +33,9 @@ on:
       WAKATIME_TOKEN:
         required: true
 jobs:
-
-# ======================================================================================
-# Examples renders
-# ======================================================================================
+  # ======================================================================================
+  # Examples renders
+  # ======================================================================================
 
   examples:
     runs-on: ubuntu-latest
@@ -838,7 +837,7 @@ jobs:
           base: ""
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://lecoq.io
+          plugin_pagespeed_url: https://next-linux.systems
           output_action: none
           delay: 120
           user: nextlinux
@@ -853,7 +852,7 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://lecoq.io
+          plugin_pagespeed_url: https://next-linux.systems
           output_action: none
           delay: 120
           user: nextlinux
@@ -868,7 +867,7 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://lecoq.io
+          plugin_pagespeed_url: https://next-linux.systems
           output_action: none
           delay: 120
           user: nextlinux
@@ -1365,7 +1364,6 @@ jobs:
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
 
-
       - name: Screenshot markdown example
         if: ${{ success() || failure() }}
         run: |
@@ -1385,13 +1383,13 @@ jobs:
           git commit -m "chore: update examples"
           git push --force
 
-# ======================================================================================
-# Special job used to render nextlinux/profiler repository assets
-# ======================================================================================
+  # ======================================================================================
+  # Special job used to render nextlinux/profiler repository assets
+  # ======================================================================================
 
   repository:
     runs-on: ubuntu-latest
-    needs: [ examples ]
+    needs: [examples]
     if: "github.repository == 'nextlinux/profiler'"
     steps:
       - name: Checkout repository
