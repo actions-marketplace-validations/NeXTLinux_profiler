@@ -151,7 +151,7 @@ name: Featured repositories
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.repositories.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_repositories: yes
   plugin_repositories_featured: nextlinux/profiler
@@ -162,7 +162,7 @@ name: Pinned repositories
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.repositories.pinned.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_repositories: yes
   plugin_repositories_pinned: 2

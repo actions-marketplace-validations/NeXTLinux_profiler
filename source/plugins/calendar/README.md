@@ -75,7 +75,7 @@ name: Current year calendar
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.calendar.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_calendar: yes
 
@@ -85,7 +85,7 @@ name: Full history calendar
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.calendar.full.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_calendar: yes
   plugin_calendar_limit: 0

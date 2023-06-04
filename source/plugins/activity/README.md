@@ -167,7 +167,7 @@ name: Recent activity
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.activity.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_activity: yes
   plugin_activity_limit: 5

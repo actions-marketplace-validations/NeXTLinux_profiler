@@ -104,7 +104,7 @@ name: Opened on user's repositories
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.followup.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_followup: yes
 
@@ -114,7 +114,7 @@ name: Opened by user
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.followup.user.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_followup: yes
   plugin_followup_sections: user
@@ -125,7 +125,7 @@ name: Indepth analysis
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.followup.indepth.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_followup: yes
   plugin_followup_indepth: yes
@@ -136,7 +136,7 @@ name: Exclude Archived
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.followup.archived.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_followup: yes
   plugin_followup_archived: no

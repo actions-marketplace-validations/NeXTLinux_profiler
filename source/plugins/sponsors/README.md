@@ -109,7 +109,7 @@ name: Sponsors goal
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.sponsors.svg
-  token: ${{ secrets.profiler_TOKEN_PERSONAL }}
+  token: ${{ secrets.PROFILER_TOKEN_PERSONAL }}
   base: ""
   plugin_sponsors: yes
   plugin_sponsors_sections: goal, list
@@ -121,7 +121,7 @@ name: Sponsors introduction
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.sponsors.full.svg
-  token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}
+  token: ${{ secrets.PROFILER_TOKEN_WITH_SCOPES }}
   base: ""
   plugin_sponsors: yes
 

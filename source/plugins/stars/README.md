@@ -67,7 +67,7 @@ name: Recently starred
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.stars.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_stars: yes
   plugin_stars_limit: 3

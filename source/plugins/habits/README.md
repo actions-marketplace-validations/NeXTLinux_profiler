@@ -192,7 +192,7 @@ name: Mildly interesting facts
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.habits.facts.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_habits: yes
   plugin_habits_facts: yes
@@ -205,7 +205,7 @@ name: Recent activity charts
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.habits.charts.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_habits: yes
   plugin_habits_facts: no

@@ -110,7 +110,7 @@ name: Compact display in base plugin
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.lines.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: repositories
   plugin_lines: yes
 
@@ -120,7 +120,7 @@ name: Repositories and diff history
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.lines.history.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_lines: yes
   plugin_lines_sections: repositories, history

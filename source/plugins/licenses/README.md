@@ -124,7 +124,7 @@ The example command is intended for NodeJs projects that use <code>npm</code> to
 name: Licenses and permissions
 with:
   filename: profiler.plugin.licenses.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   template: repository
   repo: profiler
@@ -137,7 +137,7 @@ name: Licenses with open-source ratio graphs
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.licenses.ratio.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   template: repository
   repo: profiler

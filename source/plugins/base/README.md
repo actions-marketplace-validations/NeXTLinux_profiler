@@ -208,7 +208,7 @@ name: Default profiler
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.base.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: header, activity, community, repositories, metadata
 
 ```

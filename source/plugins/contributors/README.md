@@ -160,7 +160,7 @@ name: Contributors with contributions count
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.contributors.contributions.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   template: repository
   repo: profiler
@@ -173,7 +173,7 @@ name: Contributors by categories
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.contributors.categories.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   template: repository
   repo: profiler

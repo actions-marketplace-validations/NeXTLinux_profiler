@@ -65,7 +65,7 @@ name: Repositories traffic
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.traffic.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: repositories
   plugin_traffic: yes
 

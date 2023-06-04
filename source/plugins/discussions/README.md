@@ -76,7 +76,7 @@ name: GitHub Discussions
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.discussions.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_discussions: yes
   plugin_discussions_categories_limit: 8

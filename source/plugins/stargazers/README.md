@@ -154,7 +154,7 @@ name: Using classic charts
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.stargazers.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_stargazers: yes
 
@@ -164,7 +164,7 @@ name: Using graph charts
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.stargazers.graph.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_stargazers: yes
   plugin_stargazers_charts_type: graph
@@ -175,7 +175,7 @@ name: With worldmap
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.stargazers.worldmap.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_stargazers: yes
   plugin_stargazers_charts: no
