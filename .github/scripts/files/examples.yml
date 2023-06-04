@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
   workflow_call:
     secrets:
-      profiler_TOKEN:
+      PROFILER_TOKEN:
         required: true
-      profiler_TOKEN_WITH_SCOPES:
+      PROFILER_TOKEN_WITH_SCOPES:
         required: true
-      profiler_TOKEN_PERSONAL:
+      PROFILER_TOKEN_PERSONAL:
         required: true
       CHESS_TOKEN:
         required: true
@@ -91,7 +91,7 @@ jobs:
         uses: nextlinux/profiler@master
         with:
           filename: profiler.contributors.svg
-          token: ${{ secrets.profiler_TOKEN }}
+          token: ${{ secrets.PROFILER_TOKEN }}
           base: ""
           template: repository
           user: nextlinux
@@ -107,7 +107,7 @@ jobs:
         uses: nextlinux/profiler@master
         with:
           filename: profiler.sponsors.svg
-          token: ${{ secrets.profiler_TOKEN_PERSONAL }}
+          token: ${{ secrets.PROFILER_TOKEN_PERSONAL }}
           base: ""
           user: nextlinux
           plugin_sponsors: yes
@@ -123,7 +123,7 @@ jobs:
         uses: nextlinux/profiler@master
         with:
           filename: profiler.licenses.svg
-          token: ${{ secrets.profiler_TOKEN }}
+          token: ${{ secrets.PROFILER_TOKEN }}
           base: ""
           template: repository
           user: nextlinux
