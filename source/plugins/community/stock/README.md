@@ -37,7 +37,8 @@
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.npm.optional.d3</i></li>
 <li><i>profiler.api.yahoo.finance</i></li>
@@ -53,6 +54,7 @@
   </tr>
   <tr>
     <td nowrap="nowrap">🔐 Token<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>token</code>
 <br></td>
   </tr>
@@ -62,7 +64,8 @@
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br></td>
   </tr>
   <tr>
@@ -85,7 +88,8 @@
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> 1d<br>
 <b>allowed values:</b><ul><li>1d</li><li>5d</li><li>1mo</li><li>3mo</li><li>6mo</li><li>1y</li><li>2y</li><li>5y</li><li>10y</li><li>ytd</li><li>max</li></ul></td>
@@ -104,7 +108,8 @@
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> 5m<br>
 <b>allowed values:</b><ul><li>1m</li><li>2m</li><li>5m</li><li>15m</li><li>60m</li><li>1d</li></ul></td>
@@ -121,7 +126,6 @@ Create a [RapidAPI account](https://rapidapi.com) and subscribe to [Yahoo Financ
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Stock prices from Tesla
 uses: nextlinux/profiler@latest
@@ -132,6 +136,6 @@ with:
   plugin_stock: yes
   plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
   plugin_stock_symbol: TSLA
-```
 
+```
 <!--/examples-->

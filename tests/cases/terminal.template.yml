@@ -2,7 +2,7 @@
   uses: nextlinux/profiler@latest
   with:
     template: terminal
-    token: MOCKED_TOKEN
+    token: undefined
     base: header, metadata
     use_mocked_data: yes
     verify: yes

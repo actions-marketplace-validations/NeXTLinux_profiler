@@ -42,7 +42,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -52,7 +53,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br></td>
   </tr>
@@ -63,6 +65,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">⏩ Inherits <code>repositories_skipped</code><br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>array</code>
 <i>(newline-separated)</i>
 <br></td>
@@ -73,7 +76,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥
 ≤ 8)</i>
@@ -87,7 +91,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> 0%<br></td>
   </tr>
@@ -99,7 +104,8 @@ It will be automatically hidden if empty.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -109,7 +115,8 @@ It will be automatically hidden if empty.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>default:</b> github<br></td>
@@ -120,7 +127,8 @@ It will be automatically hidden if empty.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br></td>
   </tr>
   <tr>
@@ -130,7 +138,8 @@ It will be automatically hidden if empty.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>default:</b> most-used<br>
@@ -143,7 +152,8 @@ It will be automatically hidden if empty.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>allowed values:</b><ul><li>bytes-size</li><li>percentage</li><li>lines</li></ul></td>
@@ -157,7 +167,8 @@ It will be automatically hidden if empty.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.cpu.overuse</i></li>
 <li><i>profiler.run.tempdir</i></li>
@@ -188,7 +199,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br></td>
   </tr>
@@ -198,7 +210,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(1 ≤
 𝑥
 ≤ 60)</i>
@@ -211,7 +224,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥
 ≤ 15)</i>
@@ -225,7 +239,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>default:</b> markup, programming<br>
@@ -237,7 +252,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>default:</b> markup, programming<br>
@@ -249,7 +265,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(100 ≤
 𝑥
 ≤ 1000)</i>
@@ -262,7 +279,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥
 ≤ 365)</i>
@@ -465,7 +483,6 @@ _Example: display JavaScript as JS and TypeScript as TS_
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Most used
 uses: nextlinux/profiler@latest
@@ -478,8 +495,8 @@ with:
     html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
     gnuplot
   plugin_languages_limit: 4
-```
 
+```
 ```yaml
 name: Most used (with details)
 uses: nextlinux/profiler@latest
@@ -493,8 +510,8 @@ with:
     gnuplot
   plugin_languages_details: bytes-size, percentage
   plugin_languages_limit: 4
-```
 
+```
 ```yaml
 name: Recently used
 uses: nextlinux/profiler@latest
@@ -509,8 +526,8 @@ with:
   plugin_languages_sections: recently-used
   plugin_languages_details: bytes-size, percentage
   plugin_languages_limit: 4
-```
 
+```
 ```yaml
 name: Indepth analysis
 uses: nextlinux/profiler@latest
@@ -526,6 +543,6 @@ with:
   plugin_languages_details: lines, bytes-size
   plugin_languages_limit: 4
   plugin_languages_analysis_timeout: 15
-```
 
+```
 <!--/examples-->

@@ -52,7 +52,8 @@ Follow instructions from their [documentation](https://developers.google.com/map
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -63,7 +64,8 @@ Follow instructions from their [documentation](https://developers.google.com/map
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥)</i>
 <br>
@@ -77,7 +79,8 @@ Follow instructions from their [documentation](https://developers.google.com/map
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> yes<br></td>
   </tr>
@@ -94,7 +97,8 @@ Follow instructions from their [documentation](https://developers.google.com/map
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.npm.optional.d3</i></li>
 </ul>
@@ -109,7 +113,8 @@ Follow instructions from their [documentation](https://developers.google.com/map
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.api.google.maps</i></li>
 <li><i>profiler.npm.optional.d3</i></li>
@@ -125,6 +130,7 @@ Follow instructions from their [documentation](https://developers.google.com/map
   </tr>
   <tr>
     <td nowrap="nowrap">🔐 Token<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>token</code>
 <br></td>
   </tr>
@@ -136,7 +142,8 @@ Helps to avoid consuming too much Google Geocoding API requests while still bein
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥)</i>
 <br>
@@ -149,7 +156,6 @@ Helps to avoid consuming too much Google Geocoding API requests while still bein
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Using classic charts
 uses: nextlinux/profiler@latest
@@ -158,8 +164,8 @@ with:
   token: ${{ secrets.profiler_TOKEN }}
   base: ""
   plugin_stargazers: yes
-```
 
+```
 ```yaml
 name: Using graph charts
 uses: nextlinux/profiler@latest
@@ -169,8 +175,8 @@ with:
   base: ""
   plugin_stargazers: yes
   plugin_stargazers_charts_type: graph
-```
 
+```
 ```yaml
 name: With worldmap
 uses: nextlinux/profiler@latest
@@ -183,6 +189,6 @@ with:
   plugin_stargazers_worldmap: yes
   plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
   plugin_stargazers_worldmap_sample: 200
-```
 
+```
 <!--/examples-->

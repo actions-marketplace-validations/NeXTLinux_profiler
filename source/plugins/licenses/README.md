@@ -69,7 +69,8 @@ Dependencies will be analyzed by [GitHub licensed](https://github.com/github/lic
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.cpu.overuse</i></li>
 <li><i>profiler.run.tempdir</i></li>
@@ -91,7 +92,8 @@ The example command is intended for NodeJs projects that use <code>npm</code> to
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br></td>
   </tr>
   <tr>
@@ -100,7 +102,8 @@ The example command is intended for NodeJs projects that use <code>npm</code> to
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -110,7 +113,8 @@ The example command is intended for NodeJs projects that use <code>npm</code> to
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> yes<br></td>
   </tr>
@@ -120,7 +124,6 @@ The example command is intended for NodeJs projects that use <code>npm</code> to
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Licenses and permissions
 with:
@@ -131,8 +134,8 @@ with:
   repo: profiler
   plugin_licenses: yes
   plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
-```
 
+```
 ```yaml
 name: Licenses with open-source ratio graphs
 uses: nextlinux/profiler@latest
@@ -146,6 +149,6 @@ with:
   plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
   plugin_licenses_legal: no
   plugin_licenses_ratio: yes
-```
 
+```
 <!--/examples-->

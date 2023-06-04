@@ -41,7 +41,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.run.puppeteer.scrapping</i></li>
 </ul>
@@ -62,7 +63,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>allowed values:</b><ul><li>apple</li><li>spotify</li><li>lastfm</li><li>youtube</li></ul></td>
   </tr>
@@ -80,6 +82,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">🔐 Token<br>
+✨ On <code>master</code>/<code>main</code><br>
 🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.api.music.any</i></li>
@@ -94,6 +97,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">⏯️ Cannot be preset<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>string</code>
 <br>
 <b>default:</b> <code>→ User login</code><br></td>
@@ -110,7 +114,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>allowed values:</b><ul><li>playlist</li><li>recent</li><li>top</li></ul></td>
   </tr>
@@ -122,6 +127,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">⏯️ Cannot be preset<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>string</code>
 <br></td>
   </tr>
@@ -131,7 +137,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(1 ≤
 𝑥
 ≤ 100)</i>
@@ -144,7 +151,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -159,7 +167,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> short<br>
 <b>allowed values:</b><ul><li>short</li><li>medium</li><li>long</li></ul></td>
@@ -174,7 +183,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> tracks<br>
 <b>allowed values:</b><ul><li>tracks</li><li>artists</li></ul></td>
@@ -338,7 +348,6 @@ _(Not available)_
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Apple Music - Random track from playlist
 uses: nextlinux/profiler@latest
@@ -349,8 +358,8 @@ with:
   plugin_music: yes
   plugin_music_playlist: https://embed.music.apple.com/fr/playlist/usr-share/pl.u-V9D7m8Etjmjd0D
   plugin_music_limit: 2
-```
 
+```
 ```yaml
 name: Spotify - Random track from playlist
 uses: nextlinux/profiler@latest
@@ -360,8 +369,8 @@ with:
   base: ""
   plugin_music: yes
   plugin_music_playlist: https://open.spotify.com/embed/playlist/3nfA87oeJw4LFVcUDjRcqi
-```
 
+```
 ```yaml
 name: Spotify - Recently listed
 uses: nextlinux/profiler@latest
@@ -374,8 +383,8 @@ with:
   plugin_music_mode: recent
   plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
   plugin_music_limit: 2
-```
 
+```
 ```yaml
 name: Spotify - Top tracks
 uses: nextlinux/profiler@latest
@@ -388,8 +397,8 @@ with:
   plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
   plugin_music_time_range: short
   plugin_music_top_type: tracks
-```
 
+```
 ```yaml
 name: Spotify - Top artists
 uses: nextlinux/profiler@latest
@@ -402,8 +411,8 @@ with:
   plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
   plugin_music_time_range: long
   plugin_music_top_type: artists
-```
 
+```
 ```yaml
 name: Youtube Music - Random track from playlist
 uses: nextlinux/profiler@latest
@@ -413,8 +422,8 @@ with:
   plugin_music: yes
   plugin_music_playlist: >-
     https://music.youtube.com/playlist?list=OLAK5uy_kU_uxp9TUOl9zVdw77xith8o9AknVwz9U
-```
 
+```
 ```yaml
 name: Youtube Music - Recently listed
 uses: nextlinux/profiler@latest
@@ -425,8 +434,8 @@ with:
   plugin_music: yes
   plugin_music_mode: recent
   plugin_music_provider: youtube
-```
 
+```
 ```yaml
 name: Last.fm  - Recently listed
 uses: nextlinux/profiler@latest
@@ -437,6 +446,6 @@ with:
   plugin_music: yes
   plugin_music_provider: lastfm
   plugin_music_user: RJ
-```
 
+```
 <!--/examples-->

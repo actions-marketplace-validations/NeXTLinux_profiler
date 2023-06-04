@@ -1,7 +1,7 @@
 - name: 📗 Classic template - Example
   uses: nextlinux/profiler@latest
   with:
-    token: MOCKED_TOKEN
+    token: undefined
     base: header, repositories
     plugin_lines: yes
     use_mocked_data: yes

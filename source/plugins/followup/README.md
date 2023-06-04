@@ -41,7 +41,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -55,7 +56,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>default:</b> repositories<br>
@@ -67,7 +69,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.api.github.overuse</i></li>
 </ul>
@@ -81,7 +84,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> yes<br></td>
   </tr>
@@ -99,7 +103,6 @@ It helps knowing whether repositories are also maintained by other users and giv
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Opened on user's repositories
 uses: nextlinux/profiler@latest
@@ -108,8 +111,8 @@ with:
   token: ${{ secrets.profiler_TOKEN }}
   base: ""
   plugin_followup: yes
-```
 
+```
 ```yaml
 name: Opened by user
 uses: nextlinux/profiler@latest
@@ -119,8 +122,8 @@ with:
   base: ""
   plugin_followup: yes
   plugin_followup_sections: user
-```
 
+```
 ```yaml
 name: Indepth analysis
 uses: nextlinux/profiler@latest
@@ -130,8 +133,8 @@ with:
   base: ""
   plugin_followup: yes
   plugin_followup_indepth: yes
-```
 
+```
 ```yaml
 name: Exclude Archived
 uses: nextlinux/profiler@latest
@@ -141,6 +144,6 @@ with:
   base: ""
   plugin_followup: yes
   plugin_followup_archived: no
-```
 
+```
 <!--/examples-->

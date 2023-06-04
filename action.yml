@@ -1571,6 +1571,7 @@ runs:
         # Run docker image with current environment
         docker run --init --rm --volume $GITHUB_EVENT_PATH:$GITHUB_EVENT_PATH --volume $profiler_RENDERS:/renders --env-file .env $profiler_IMAGE
         rm .env
+
       shell: bash
       env:
         profiler_ACTION: ${{ github.action }}

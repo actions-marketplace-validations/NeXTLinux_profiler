@@ -40,7 +40,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -51,6 +52,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">🔐 Token<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>token</code>
 <br></td>
   </tr>
@@ -60,7 +62,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <br>
 <b>default:</b> 7<br>
 <b>allowed values:</b><ul><li>7</li><li>30</li><li>180</li><li>365</li></ul></td>
@@ -98,13 +101,12 @@ This token will not expire and it will be able to access only public details.
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 uses: nextlinux/profiler@latest
 with:
   token: NOT_NEEDED
   plugin_poopmap_token: ${{ secrets.POOPMAP_TOKEN }}
   plugin_poopmap: yes
-```
 
+```
 <!--/examples-->

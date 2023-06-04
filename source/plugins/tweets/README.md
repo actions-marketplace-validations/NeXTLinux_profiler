@@ -40,7 +40,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.api.twitter.tweets</i></li>
 </ul>
@@ -55,6 +56,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">🔐 Token<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>token</code>
 <br></td>
   </tr>
@@ -65,6 +67,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">⏯️ Cannot be preset<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>string</code>
 <br>
 <b>default:</b> <code>→ User attached twitter</code><br></td>
@@ -76,7 +79,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -86,7 +90,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(1 ≤
 𝑥
 ≤ 10)</i>
@@ -108,7 +113,6 @@ Create an app from the [developer dashboard](https://developer.twitter.com/en/po
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Latest tweets
 uses: nextlinux/profiler@latest
@@ -119,8 +123,8 @@ with:
   plugin_tweets: yes
   plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
   plugin_tweets_user: github
-```
 
+```
 ```yaml
 name: Latest tweets including attachments
 uses: nextlinux/profiler@latest
@@ -133,6 +137,6 @@ with:
   plugin_tweets_attachments: yes
   plugin_tweets_user: github
   plugin_tweets_limit: 1
-```
 
+```
 <!--/examples-->

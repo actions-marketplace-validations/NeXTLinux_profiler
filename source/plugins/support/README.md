@@ -41,7 +41,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>profiler.run.puppeteer.scrapping</i></li>
 </ul>
@@ -55,7 +56,6 @@ All product and company names are trademarks™ or registered® trademarks of th
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: GitHub Community Support
 uses: nextlinux/profiler@latest
@@ -64,6 +64,6 @@ with:
   token: NOT_NEEDED
   base: ""
   plugin_support: yes
-```
 
+```
 <!--/examples-->

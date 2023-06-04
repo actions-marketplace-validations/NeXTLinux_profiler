@@ -2,7 +2,7 @@
   uses: nextlinux/profiler@latest
   with:
     template: repository
-    token: MOCKED_TOKEN
+    token: undefined
     user: nextlinux
     repo: profiler
     plugin_lines: yes

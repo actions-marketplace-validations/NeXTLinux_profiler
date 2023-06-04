@@ -40,7 +40,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -55,7 +56,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>default:</b> goal, list, about<br>
@@ -71,7 +73,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -81,7 +84,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(8 ≤
 𝑥
 ≤ 64)</i>
@@ -94,7 +98,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> Sponsor Me!<br></td>
   </tr>
@@ -104,7 +109,6 @@ All product and company names are trademarks™ or registered® trademarks of th
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Sponsors goal
 uses: nextlinux/profiler@latest
@@ -115,8 +119,8 @@ with:
   plugin_sponsors: yes
   plugin_sponsors_sections: goal, list
   plugin_sponsors_past: yes
-```
 
+```
 ```yaml
 name: Sponsors introduction
 uses: nextlinux/profiler@latest
@@ -125,6 +129,6 @@ with:
   token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}
   base: ""
   plugin_sponsors: yes
-```
 
+```
 <!--/examples-->

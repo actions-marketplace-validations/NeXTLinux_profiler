@@ -37,7 +37,8 @@
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -47,7 +48,6 @@
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Fortune
 uses: nextlinux/profiler@latest
@@ -56,6 +56,6 @@ with:
   token: NOT_NEEDED
   base: ""
   plugin_fortune: yes
-```
 
+```
 <!--/examples-->

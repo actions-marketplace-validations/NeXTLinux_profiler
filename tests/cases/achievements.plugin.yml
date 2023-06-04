@@ -1,7 +1,7 @@
 - name: 🏆 Achievements - Detailed display
   uses: nextlinux/profiler@latest
   with:
-    token: MOCKED_TOKEN
+    token: undefined
     plugin_achievements: 'yes'
     plugin_achievements_only: sponsor, maintainer, octonaut
     use_mocked_data: 'yes'
@@ -10,7 +10,7 @@
 - name: 🏆 Achievements - Compact display
   uses: nextlinux/profiler@latest
   with:
-    token: MOCKED_TOKEN
+    token: undefined
     plugin_achievements: 'yes'
     plugin_achievements_only: >-
       polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
