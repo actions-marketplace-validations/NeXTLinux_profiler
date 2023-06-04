@@ -144,7 +144,6 @@ _Example: embed a `🈷️ languages` SVG render_
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Example
 uses: nextlinux/profiler@latest
@@ -155,8 +154,8 @@ with:
     https://raw.githubusercontent.com/nextlinux/profiler/examples/profiler.markdown.template.md
   config_output: markdown
   token: ${{ secrets.profiler_TOKEN }}
-```
 
+```
 ```yaml
 name: Example with plugins configuration for embed use
 uses: nextlinux/profiler@latest
@@ -188,8 +187,8 @@ with:
   plugin_isocalendar: yes
   plugin_languages: yes
   token: ${{ secrets.profiler_TOKEN }}
-```
 
+```
 ```yaml
 name: Example (pdf output)
 uses: nextlinux/profiler@latest
@@ -206,6 +205,6 @@ with:
   config_twemoji: yes
   config_padding: 5%
   token: ${{ secrets.profiler_TOKEN }}
-```
 
+```
 <!--/examples-->

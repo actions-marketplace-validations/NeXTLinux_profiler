@@ -126,7 +126,6 @@ All product and company names are trademarks™ or registered® trademarks of th
 ## ℹ️ Examples workflows
 
 <!--examples-->
-
 ```yaml
 name: Succinct report
 uses: nextlinux/profiler@latest
@@ -137,8 +136,8 @@ with:
   plugin_pagespeed: yes
   plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
   plugin_pagespeed_url: https://next-linux.systems
-```
 
+```
 ```yaml
 name: Detailed report
 uses: nextlinux/profiler@latest
@@ -150,8 +149,8 @@ with:
   plugin_pagespeed_detailed: yes
   plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
   plugin_pagespeed_url: https://next-linux.systems
-```
 
+```
 ```yaml
 name: Screenshot
 uses: nextlinux/profiler@latest
@@ -163,8 +162,8 @@ with:
   plugin_pagespeed_screenshot: yes
   plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
   plugin_pagespeed_url: https://next-linux.systems
-```
 
+```
 ```yaml
 name: Succinct report with PWA
 uses: nextlinux/profiler@latest
@@ -176,6 +175,6 @@ with:
   plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
   plugin_pagespeed_url: https://next-linux.systems
   plugin_pagespeed_pwa: yes
-```
 
+```
 <!--/examples-->
