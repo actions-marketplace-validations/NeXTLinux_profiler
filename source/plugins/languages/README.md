@@ -470,7 +470,7 @@ name: Most used
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.languages.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_languages: yes
   plugin_languages_ignored: >-
@@ -484,7 +484,7 @@ name: Most used (with details)
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.languages.details.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_languages: yes
   plugin_languages_ignored: >-
@@ -499,7 +499,7 @@ name: Recently used
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.languages.recent.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_languages: yes
   plugin_languages_ignored: >-
@@ -515,7 +515,7 @@ name: Indepth analysis
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.languages.indepth.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_languages: yes
   plugin_languages_ignored: >-

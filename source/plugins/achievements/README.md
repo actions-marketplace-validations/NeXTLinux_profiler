@@ -132,7 +132,7 @@ name: Detailed display
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.achievements.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_achievements: yes
   plugin_achievements_only: sponsor, maintainer, octonaut
@@ -143,7 +143,7 @@ name: Compact display
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.achievements.compact.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_achievements: yes
   plugin_achievements_only: >-

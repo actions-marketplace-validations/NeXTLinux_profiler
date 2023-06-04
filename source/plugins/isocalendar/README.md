@@ -70,7 +70,7 @@ name: Half-year calendar
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.isocalendar.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_isocalendar: yes
 
@@ -80,7 +80,7 @@ name: Full-year calendar
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.isocalendar.fullyear.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_isocalendar: yes
   plugin_isocalendar_duration: full-year

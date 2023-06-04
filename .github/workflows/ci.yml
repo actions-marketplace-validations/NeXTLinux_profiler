@@ -8,7 +8,7 @@ jobs:
   # Build, test and analyze
   build-test-analyze:
     name: Build, test and analyze
-    if: "!contains(github.event.head_commit.message, '[skip test]')"
+    if: '"!contains(github.event.head_commit.message, [skip test])"'
     uses: nextlinux/profiler/.github/workflows/test.yml@master
 
   # Format code
@@ -102,13 +102,13 @@ jobs:
       - name: Tag docker image (beta) and publish to GitHub registry
         run: |
           set +e
-          profiler_VERSION=$(cat package.json | grep -Po '(?<="version": ")\d+[.]\d+(?=[.]0-beta")')
-          profiler_VERSION_BETA="$profiler_VERSION-beta"
+          METRICS_VERSION=$(cat package.json | grep -Po '(?<="version": ")\d+[.]\d+(?=[.]0-beta")')
+          METRICS_VERSION_BETA="$METRICS_VERSION-beta"
           set -e
-          if [[ ! -z "$profiler_VERSION" ]]; then
-            echo "Beta version: v$profiler_VERSION_BETA"
-            docker tag ghcr.io/nextlinux/profiler:master ghcr.io/nextlinux/profiler:$(echo "v$profiler_VERSION_BETA")
-            docker push ghcr.io/nextlinux/profiler:$(echo "v$profiler_VERSION_BETA")
+          if [[ ! -z "$METRICS_VERSION" ]]; then
+            echo "Beta version: v$METRICS_VERSION_BETA"
+            docker tag ghcr.io/nextlinux/profiler:master ghcr.io/nextlinux/profiler:$(echo "v$METRICS_VERSION_BETA")
+            docker push ghcr.io/nextlinux/profiler:$(echo "v$METRICS_VERSION_BETA")
           fi
       - name: Tag docker image (main) and publish to GitHub registry
         run: |

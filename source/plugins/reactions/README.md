@@ -157,7 +157,7 @@ name: Comment reactions
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.reactions.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_reactions: yes
   plugin_reactions_limit: 100

@@ -54,7 +54,7 @@ name: Gists
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.gists.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_gists: yes
 

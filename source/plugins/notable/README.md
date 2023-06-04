@@ -156,7 +156,7 @@ name: Contributions
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.notable.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_notable: yes
 
@@ -166,7 +166,7 @@ name: Indepth analysis
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.notable.indepth.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_notable: yes
   plugin_notable_indepth: yes

@@ -66,7 +66,7 @@ name: Organization introduction
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.introduction.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   user: github
   base: header
   plugin_introduction: yes
@@ -77,7 +77,7 @@ name: Repository introduction
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.introduction.repository.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   template: repository
   repo: profiler
   base: header

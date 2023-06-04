@@ -128,7 +128,7 @@ name: Project from a repository
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.projects.svg
-  token: ${{ secrets.profiler_TOKEN_WITH_SCOPES }}
+  token: ${{ secrets.PROFILER_TOKEN_WITH_SCOPES }}
   base: ""
   plugin_projects: yes
   plugin_projects_repositories: nextlinux/profiler/projects/1

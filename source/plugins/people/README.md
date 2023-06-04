@@ -171,7 +171,7 @@ name: Followers
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.people.followers.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_people: yes
   plugin_people_types: followers
@@ -182,7 +182,7 @@ name: Contributors and sponsors
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.people.repository.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   template: repository
   repo: profiler

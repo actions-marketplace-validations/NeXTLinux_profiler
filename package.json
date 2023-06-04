@@ -62,7 +62,12 @@
     "jsdom": "^22.1.0",
     "json": "^11.0.0",
     "linguist-js": "^2.5.4",
+<<<<<<< Updated upstream
     "marked": "^5.0.3",
+=======
+    "markdown": "^0.5.0",
+    "marked": "^4.3.0",
+>>>>>>> Stashed changes
     "memory-cache": "^0.2.0",
     "minimatch": "^7.4.3",
     "mjs": "^1.0.0",

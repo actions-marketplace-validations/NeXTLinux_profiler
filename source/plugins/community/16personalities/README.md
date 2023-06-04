@@ -98,7 +98,7 @@ name: MBTI Personality profile
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.16personalities.svg
-  token: ${{ secrets.profiler_TOKEN }}
+  token: ${{ secrets.PROFILER_TOKEN }}
   base: ""
   plugin_16personalities: yes
   plugin_16personalities_url: ${{ secrets.SIXTEEN_PERSONALITIES_URL }}

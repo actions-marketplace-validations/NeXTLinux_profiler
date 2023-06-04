@@ -83,7 +83,7 @@ name: 💝 GitHub Sponsorships
 uses: nextlinux/profiler@latest
 with:
   filename: profiler.plugin.sponsorships.svg
-  token: ${{ secrets.profiler_TOKEN_PERSONAL }}
+  token: ${{ secrets.PROFILER_TOKEN_PERSONAL }}
   base: ""
   plugin_sponsorships: yes
 
