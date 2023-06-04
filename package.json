@@ -11,7 +11,7 @@
     "test-profiler": "jest --runInBand profiler.test.js",
     "build": "node .github/scripts/build.mjs",
     "presets": "node .github/scripts/presets_examples.mjs",
-    "quickstart": "node .github/scripts/quickstart/index.mjs",
+    "quickstart": "node .github/scripts/quickstarter/index.mjs",
     "preview": "node .github/scripts/preview.mjs",
     "linter": "eslint source/**/*.mjs --quiet",
     "dev": "nodemon source/app/web/index.mjs -e mjs,css,ejs,json",
