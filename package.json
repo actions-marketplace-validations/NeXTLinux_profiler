@@ -49,7 +49,7 @@
     "d3": "^7.8.3",
     "degenerator": "^4.0.2",
     "ejs": "^3.1.9",
-    "emittery": "^0.13.1",
+    "emittery": "^1.0.1",
     "emoji-name-map": "^1.2.9",
     "esm": "^3.2.25",
     "execa": "^5.1.1",
@@ -62,12 +62,7 @@
     "jsdom": "^22.1.0",
     "json": "^11.0.0",
     "linguist-js": "^2.5.4",
-<<<<<<< Updated upstream
     "marked": "^5.0.3",
-=======
-    "markdown": "^0.5.0",
-    "marked": "^4.3.0",
->>>>>>> Stashed changes
     "memory-cache": "^0.2.0",
     "minimatch": "^7.4.3",
     "mjs": "^1.0.0",
@@ -94,22 +89,13 @@
     "xml-formatter": "^3.3.2"
   },
   "devDependencies": {
-    "dprint": "^0.35.1",
-    "eslint": "^8.41.0",
+    "dprint": "0.37.1",
+    "eslint": "^8.42.0",
     "jest": "^29.5.0"
   },
   "jest": {
     "testEnvironment": "node",
     "testTimeout": 60000,
     "transform": {}
-  },
-  "optionalDependencies": {
-    "@googlemaps/google-maps-services-js": "^3.3.27",
-    "chess.js": "^1.0.0-beta.3",
-    "color": "^4.2.3",
-    "gifencoder": "^2.0.1",
-    "libxmljs2": "^0.31.0",
-    "rss": "^1.2.2",
-    "yargs-parser": "^21.1.1"
   }
 }
